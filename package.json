@@ -1,0 +1,15 @@
+{
+  "name": "spendly-project",
+  "version": "1.0.0",
+  "description": "Spendly: AI-Powered Expense Tracker",
+  "scripts": {
+    "setup": "cd server && npm install",
+    "start:server": "cd server && node server.js",
+    "start:client": "cd client && npx http-server -p 8000",
+    "dev": "npx concurrently \"npm run start:server\" \"npm run start:client\"",
+    "deploy": "firebase deploy"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,6002 @@
+[
+  {
+    "sentence": "got internet bill for ₹930",
+    "amount": 930,
+    "item": "internet bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "noted 4230 bucks for sandals",
+    "amount": 4230,
+    "item": "sandals",
+    "category": "shopping"
+  },
+  {
+    "sentence": "just bought paneer for 1910",
+    "amount": 1910,
+    "item": "paneer",
+    "category": "groceries"
+  },
+  {
+    "sentence": "noted ₹1490 for metro card",
+    "amount": 1490,
+    "item": "metro card",
+    "category": "transport"
+  },
+  {
+    "sentence": "record Rs 310 spent on tea",
+    "amount": 310,
+    "item": "tea",
+    "category": "food"
+  },
+  {
+    "sentence": "record Rs 80 spent on chocolate",
+    "amount": 80,
+    "item": "chocolate",
+    "category": "food"
+  },
+  {
+    "sentence": "I paid 1450 bucks for rapido ride",
+    "amount": 1450,
+    "item": "rapido ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "log expense of 4890 for broadband bill",
+    "amount": 4890,
+    "item": "broadband bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "I paid Rs 1620 on exam fee",
+    "amount": 1620,
+    "item": "exam fee",
+    "category": "education"
+  },
+  {
+    "sentence": "I spent 3110 bucks for pen drive",
+    "amount": 3110,
+    "item": "pen drive",
+    "category": "education"
+  },
+  {
+    "sentence": "expense of ₹4330 on jacket",
+    "amount": 4330,
+    "item": "jacket",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I made a payment of 2650 rs towards yoga class",
+    "amount": 2650,
+    "item": "yoga class",
+    "category": "health"
+  },
+  {
+    "sentence": "spent 530 rupees on dosa",
+    "amount": 530,
+    "item": "dosa",
+    "category": "food"
+  },
+  {
+    "sentence": "just spent 2970 rupees on yoga class",
+    "amount": 2970,
+    "item": "yoga class",
+    "category": "health"
+  },
+  {
+    "sentence": "approximately 4380 spent on t-shirt",
+    "amount": 4380,
+    "item": "t-shirt",
+    "category": "shopping"
+  },
+  {
+    "sentence": "paid 1570 bucks for vegetables",
+    "amount": 1570,
+    "item": "vegetables",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I spent 20 rs for idli",
+    "amount": 20,
+    "item": "idli",
+    "category": "food"
+  },
+  {
+    "sentence": "cricket match ticket was 260 bucks",
+    "amount": 260,
+    "item": "cricket match ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "debited ₹440 for tea leaves",
+    "amount": 440,
+    "item": "tea leaves",
+    "category": "groceries"
+  },
+  {
+    "sentence": "bedsheet was ₹4770",
+    "amount": 4770,
+    "item": "bedsheet",
+    "category": "shopping"
+  },
+  {
+    "sentence": "approximately Rs 70 spent on physiotherapy",
+    "amount": 70,
+    "item": "physiotherapy",
+    "category": "health"
+  },
+  {
+    "sentence": "I paid 720 rupees for momos",
+    "amount": 720,
+    "item": "momos",
+    "category": "food"
+  },
+  {
+    "sentence": "add 630 rupees for Amazon Prime",
+    "amount": 630,
+    "item": "Amazon Prime",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "got health checkup for 1550 bucks",
+    "amount": 1550,
+    "item": "health checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "paid ₹1950 towards escape room",
+    "amount": 1950,
+    "item": "escape room",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "I paid 340 rupees for petrol",
+    "amount": 340,
+    "item": "petrol",
+    "category": "transport"
+  },
+  {
+    "sentence": "paid Rs 170 for rolls",
+    "amount": 170,
+    "item": "rolls",
+    "category": "food"
+  },
+  {
+    "sentence": "spent 410 getting auto fare",
+    "amount": 410,
+    "item": "auto fare",
+    "category": "transport"
+  },
+  {
+    "sentence": "add expense of Rs 310 for ola ride",
+    "amount": 310,
+    "item": "ola ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "just bought gas bill for Rs 3890",
+    "amount": 3890,
+    "item": "gas bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "saving Rs 2970 as jacket expense",
+    "amount": 2970,
+    "item": "jacket",
+    "category": "shopping"
+  },
+  {
+    "sentence": "the mobile recharge cost 4450",
+    "amount": 4450,
+    "item": "mobile recharge",
+    "category": "bills"
+  },
+  {
+    "sentence": "paid 520 rupees towards mobile cover",
+    "amount": 520,
+    "item": "mobile cover",
+    "category": "shopping"
+  },
+  {
+    "sentence": "debited 680 rs for belt",
+    "amount": 680,
+    "item": "belt",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I purchased ferry ticket worth 260 rupees",
+    "amount": 260,
+    "item": "ferry ticket",
+    "category": "transport"
+  },
+  {
+    "sentence": "paid 2790 rs at eye drops",
+    "amount": 2790,
+    "item": "eye drops",
+    "category": "health"
+  },
+  {
+    "sentence": "expense of 1920 on OTT subscription",
+    "amount": 1920,
+    "item": "OTT subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "added 380 rupees for burger",
+    "amount": 380,
+    "item": "burger",
+    "category": "food"
+  },
+  {
+    "sentence": "log expense of Rs 850 for movie ticket",
+    "amount": 850,
+    "item": "movie ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "add expense of 540 for museum ticket",
+    "amount": 540,
+    "item": "museum ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "just paid 2580 rupees for protein powder",
+    "amount": 2580,
+    "item": "protein powder",
+    "category": "health"
+  },
+  {
+    "sentence": "I spent 920 rs on bus ticket",
+    "amount": 920,
+    "item": "bus ticket",
+    "category": "transport"
+  },
+  {
+    "sentence": "approximately 790 bucks spent on fuel",
+    "amount": 790,
+    "item": "fuel",
+    "category": "transport"
+  },
+  {
+    "sentence": "spent around 1360 rs on petrol",
+    "amount": 1360,
+    "item": "petrol",
+    "category": "transport"
+  },
+  {
+    "sentence": "paid 1220 bucks at auto fare",
+    "amount": 1220,
+    "item": "auto fare",
+    "category": "transport"
+  },
+  {
+    "sentence": "add an expense of 870 rupees for concert ticket",
+    "amount": 870,
+    "item": "concert ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "add 530 rs for train ticket",
+    "amount": 530,
+    "item": "train ticket",
+    "category": "transport"
+  },
+  {
+    "sentence": "car wash was Rs 1200",
+    "amount": 1200,
+    "item": "car wash",
+    "category": "transport"
+  },
+  {
+    "sentence": "approximately 1010 spent on bus pass",
+    "amount": 1010,
+    "item": "bus pass",
+    "category": "transport"
+  },
+  {
+    "sentence": "expense of 4830 on lab fee",
+    "amount": 4830,
+    "item": "lab fee",
+    "category": "education"
+  },
+  {
+    "sentence": "paid 400 rs at rickshaw",
+    "amount": 400,
+    "item": "rickshaw",
+    "category": "transport"
+  },
+  {
+    "sentence": "bought printer ink for Rs 3980",
+    "amount": 3980,
+    "item": "printer ink",
+    "category": "education"
+  },
+  {
+    "sentence": "entering expense of Rs 850 for art supplies",
+    "amount": 850,
+    "item": "art supplies",
+    "category": "education"
+  },
+  {
+    "sentence": "I paid Rs 20 for lunch",
+    "amount": 20,
+    "item": "lunch",
+    "category": "food"
+  },
+  {
+    "sentence": "paid 710 rs towards rolls",
+    "amount": 710,
+    "item": "rolls",
+    "category": "food"
+  },
+  {
+    "sentence": "charged 2250 for pen",
+    "amount": 2250,
+    "item": "pen",
+    "category": "shopping"
+  },
+  {
+    "sentence": "picked up zoo ticket for Rs 1010",
+    "amount": 1010,
+    "item": "zoo ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "just paid 480 for rolls",
+    "amount": 480,
+    "item": "rolls",
+    "category": "food"
+  },
+  {
+    "sentence": "paid 1690 rs for drawing kit",
+    "amount": 1690,
+    "item": "drawing kit",
+    "category": "education"
+  },
+  {
+    "sentence": "spent 1420 rupees getting gaming",
+    "amount": 1420,
+    "item": "gaming",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "saving 500 rupees as rolls expense",
+    "amount": 500,
+    "item": "rolls",
+    "category": "food"
+  },
+  {
+    "sentence": "noted 400 bucks for sugar",
+    "amount": 400,
+    "item": "sugar",
+    "category": "groceries"
+  },
+  {
+    "sentence": "paid 740 bucks for protein powder",
+    "amount": 740,
+    "item": "protein powder",
+    "category": "health"
+  },
+  {
+    "sentence": "purchased Netflix subscription for 650 bucks",
+    "amount": 650,
+    "item": "Netflix subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "I paid 950 rupees on phone bill",
+    "amount": 950,
+    "item": "phone bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "add health checkup expense of 580 bucks",
+    "amount": 580,
+    "item": "health checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "concert ticket was 700 bucks",
+    "amount": 700,
+    "item": "concert ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "picked up escape room for 1840 rupees",
+    "amount": 1840,
+    "item": "escape room",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "used 4980 bucks for coaching class",
+    "amount": 4980,
+    "item": "coaching class",
+    "category": "education"
+  },
+  {
+    "sentence": "noted Rs 920 for curd",
+    "amount": 920,
+    "item": "curd",
+    "category": "groceries"
+  },
+  {
+    "sentence": "just bought pen drive for 3940",
+    "amount": 3940,
+    "item": "pen drive",
+    "category": "education"
+  },
+  {
+    "sentence": "saving 210 as tea expense",
+    "amount": 210,
+    "item": "tea",
+    "category": "food"
+  },
+  {
+    "sentence": "sandwich was 500",
+    "amount": 500,
+    "item": "sandwich",
+    "category": "food"
+  },
+  {
+    "sentence": "picked up phone bill for Rs 1940",
+    "amount": 1940,
+    "item": "phone bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "spent 1560 rs on Spotify subscription",
+    "amount": 1560,
+    "item": "Spotify subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "bought yoga class worth 120 bucks",
+    "amount": 120,
+    "item": "yoga class",
+    "category": "health"
+  },
+  {
+    "sentence": "entering expense of 1310 bucks for car wash",
+    "amount": 1310,
+    "item": "car wash",
+    "category": "transport"
+  },
+  {
+    "sentence": "picked up book for 250 rs",
+    "amount": 250,
+    "item": "book",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "just paid 750 bucks for phone bill",
+    "amount": 750,
+    "item": "phone bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "add an expense of Rs 3880 for EMI",
+    "amount": 3880,
+    "item": "EMI",
+    "category": "bills"
+  },
+  {
+    "sentence": "add an expense of 1440 bucks for ola ride",
+    "amount": 1440,
+    "item": "ola ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "used ₹870 for gaming",
+    "amount": 870,
+    "item": "gaming",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "made a payment of 760 for breakfast",
+    "amount": 760,
+    "item": "breakfast",
+    "category": "food"
+  },
+  {
+    "sentence": "add ₹170 for breakfast",
+    "amount": 170,
+    "item": "breakfast",
+    "category": "food"
+  },
+  {
+    "sentence": "approximately 1540 rs spent on first aid kit",
+    "amount": 1540,
+    "item": "first aid kit",
+    "category": "health"
+  },
+  {
+    "sentence": "just spent Rs 850 on taxi",
+    "amount": 850,
+    "item": "taxi",
+    "category": "transport"
+  },
+  {
+    "sentence": "spent 2300 on towel",
+    "amount": 2300,
+    "item": "towel",
+    "category": "shopping"
+  },
+  {
+    "sentence": "add expense of 1390 for vitamin tablets",
+    "amount": 1390,
+    "item": "vitamin tablets",
+    "category": "health"
+  },
+  {
+    "sentence": "entering expense of Rs 3380 for mobile recharge",
+    "amount": 3380,
+    "item": "mobile recharge",
+    "category": "bills"
+  },
+  {
+    "sentence": "record ₹470 spent on gas bill",
+    "amount": 470,
+    "item": "gas bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "picked up cab fare for Rs 690",
+    "amount": 690,
+    "item": "cab fare",
+    "category": "transport"
+  },
+  {
+    "sentence": "saving Rs 40 as taxi expense",
+    "amount": 40,
+    "item": "taxi",
+    "category": "transport"
+  },
+  {
+    "sentence": "spent around Rs 3630 on wallet",
+    "amount": 3630,
+    "item": "wallet",
+    "category": "shopping"
+  },
+  {
+    "sentence": "spent 150 bucks for biryani",
+    "amount": 150,
+    "item": "biryani",
+    "category": "food"
+  },
+  {
+    "sentence": "used 760 rs for zoo ticket",
+    "amount": 760,
+    "item": "zoo ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "workshop fee was Rs 1020",
+    "amount": 1020,
+    "item": "workshop fee",
+    "category": "education"
+  },
+  {
+    "sentence": "spent 580 on zoo ticket",
+    "amount": 580,
+    "item": "zoo ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "noted 3900 rs for pen drive",
+    "amount": 3900,
+    "item": "pen drive",
+    "category": "education"
+  },
+  {
+    "sentence": "add 3920 rs for umbrella",
+    "amount": 3920,
+    "item": "umbrella",
+    "category": "shopping"
+  },
+  {
+    "sentence": "used Rs 2070 for towel",
+    "amount": 2070,
+    "item": "towel",
+    "category": "shopping"
+  },
+  {
+    "sentence": "paid 3590 bucks for workshop fee",
+    "amount": 3590,
+    "item": "workshop fee",
+    "category": "education"
+  },
+  {
+    "sentence": "I spent ₹1280 on pulses",
+    "amount": 1280,
+    "item": "pulses",
+    "category": "groceries"
+  },
+  {
+    "sentence": "add expense of 1440 bucks for insurance premium",
+    "amount": 1440,
+    "item": "insurance premium",
+    "category": "bills"
+  },
+  {
+    "sentence": "spent around 2080 on phone bill",
+    "amount": 2080,
+    "item": "phone bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "picked up poha for 690",
+    "amount": 690,
+    "item": "poha",
+    "category": "groceries"
+  },
+  {
+    "sentence": "bought vegetables for 60 bucks",
+    "amount": 60,
+    "item": "vegetables",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I paid 3880 bucks for tuition fee",
+    "amount": 3880,
+    "item": "tuition fee",
+    "category": "education"
+  },
+  {
+    "sentence": "entering expense of 1770 bucks for curd",
+    "amount": 1770,
+    "item": "curd",
+    "category": "groceries"
+  },
+  {
+    "sentence": "spent ₹2370 on online course",
+    "amount": 2370,
+    "item": "online course",
+    "category": "education"
+  },
+  {
+    "sentence": "purchased rolls for Rs 180",
+    "amount": 180,
+    "item": "rolls",
+    "category": "food"
+  },
+  {
+    "sentence": "I made a payment of ₹1600 towards atta",
+    "amount": 1600,
+    "item": "atta",
+    "category": "groceries"
+  },
+  {
+    "sentence": "paid ₹4650 towards wallet",
+    "amount": 4650,
+    "item": "wallet",
+    "category": "shopping"
+  },
+  {
+    "sentence": "log expense of 1580 rs for sugar",
+    "amount": 1580,
+    "item": "sugar",
+    "category": "groceries"
+  },
+  {
+    "sentence": "just paid 450 bucks for cricket match ticket",
+    "amount": 450,
+    "item": "cricket match ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "expense of ₹3230 on saree",
+    "amount": 3230,
+    "item": "saree",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I spent 2670 bucks on lab fee",
+    "amount": 2670,
+    "item": "lab fee",
+    "category": "education"
+  },
+  {
+    "sentence": "sandals was 3040 rupees",
+    "amount": 3040,
+    "item": "sandals",
+    "category": "shopping"
+  },
+  {
+    "sentence": "spent 1830 bucks on tea leaves",
+    "amount": 1830,
+    "item": "tea leaves",
+    "category": "groceries"
+  },
+  {
+    "sentence": "paid ₹860 towards atta",
+    "amount": 860,
+    "item": "atta",
+    "category": "groceries"
+  },
+  {
+    "sentence": "purchased watch for 2160 rupees",
+    "amount": 2160,
+    "item": "watch",
+    "category": "shopping"
+  },
+  {
+    "sentence": "spent 1110 bucks on paneer",
+    "amount": 1110,
+    "item": "paneer",
+    "category": "groceries"
+  },
+  {
+    "sentence": "got EMI for 2880 bucks",
+    "amount": 2880,
+    "item": "EMI",
+    "category": "bills"
+  },
+  {
+    "sentence": "track 4980 bucks for belt",
+    "amount": 4980,
+    "item": "belt",
+    "category": "shopping"
+  },
+  {
+    "sentence": "got bedsheet for 2320 bucks",
+    "amount": 2320,
+    "item": "bedsheet",
+    "category": "shopping"
+  },
+  {
+    "sentence": "record ₹270 spent on EMI",
+    "amount": 270,
+    "item": "EMI",
+    "category": "bills"
+  },
+  {
+    "sentence": "used 110 rs for samosa",
+    "amount": 110,
+    "item": "samosa",
+    "category": "food"
+  },
+  {
+    "sentence": "just bought internet bill for 2670",
+    "amount": 2670,
+    "item": "internet bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "I bought printer ink for 1910 bucks",
+    "amount": 1910,
+    "item": "printer ink",
+    "category": "education"
+  },
+  {
+    "sentence": "paid 1220 bucks at pharmacy",
+    "amount": 1220,
+    "item": "pharmacy",
+    "category": "health"
+  },
+  {
+    "sentence": "magazine was 1230 rupees",
+    "amount": 1230,
+    "item": "magazine",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "got sweets for Rs 460",
+    "amount": 460,
+    "item": "sweets",
+    "category": "food"
+  },
+  {
+    "sentence": "just bought DTH recharge for 100",
+    "amount": 100,
+    "item": "DTH recharge",
+    "category": "bills"
+  },
+  {
+    "sentence": "I spent ₹1740 for fruits",
+    "amount": 1740,
+    "item": "fruits",
+    "category": "groceries"
+  },
+  {
+    "sentence": "made a payment of 1950 bucks for dry fruits",
+    "amount": 1950,
+    "item": "dry fruits",
+    "category": "groceries"
+  },
+  {
+    "sentence": "just bought sugar for 970 rupees",
+    "amount": 970,
+    "item": "sugar",
+    "category": "groceries"
+  },
+  {
+    "sentence": "just spent Rs 720 on vada pav",
+    "amount": 720,
+    "item": "vada pav",
+    "category": "food"
+  },
+  {
+    "sentence": "saving Rs 790 as zoo ticket expense",
+    "amount": 790,
+    "item": "zoo ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "noted 370 rupees for supplements",
+    "amount": 370,
+    "item": "supplements",
+    "category": "health"
+  },
+  {
+    "sentence": "add protein powder expense of Rs 1600",
+    "amount": 1600,
+    "item": "protein powder",
+    "category": "health"
+  },
+  {
+    "sentence": "paid 1830 rupees towards magazine",
+    "amount": 1830,
+    "item": "magazine",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "entering expense of 2600 for health checkup",
+    "amount": 2600,
+    "item": "health checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "add an expense of ₹200 for biryani",
+    "amount": 200,
+    "item": "biryani",
+    "category": "food"
+  },
+  {
+    "sentence": "added Rs 3830 for certification",
+    "amount": 3830,
+    "item": "certification",
+    "category": "education"
+  },
+  {
+    "sentence": "rent cost me 1750 bucks",
+    "amount": 1750,
+    "item": "rent",
+    "category": "bills"
+  },
+  {
+    "sentence": "add an expense of ₹1250 for medicine",
+    "amount": 1250,
+    "item": "medicine",
+    "category": "health"
+  },
+  {
+    "sentence": "spent around 1940 on wallet",
+    "amount": 1940,
+    "item": "wallet",
+    "category": "shopping"
+  },
+  {
+    "sentence": "used Rs 410 for vitamin tablets",
+    "amount": 410,
+    "item": "vitamin tablets",
+    "category": "health"
+  },
+  {
+    "sentence": "track ₹1670 for sunglasses",
+    "amount": 1670,
+    "item": "sunglasses",
+    "category": "shopping"
+  },
+  {
+    "sentence": "approximately 370 rupees spent on college fee",
+    "amount": 370,
+    "item": "college fee",
+    "category": "education"
+  },
+  {
+    "sentence": "add college fee expense of 4860 rs",
+    "amount": 4860,
+    "item": "college fee",
+    "category": "education"
+  },
+  {
+    "sentence": "the movie ticket cost 150",
+    "amount": 150,
+    "item": "movie ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "add 1190 bucks for vegetables",
+    "amount": 1190,
+    "item": "vegetables",
+    "category": "groceries"
+  },
+  {
+    "sentence": "spent ₹3000 for sunglasses",
+    "amount": 3000,
+    "item": "sunglasses",
+    "category": "shopping"
+  },
+  {
+    "sentence": "paid ₹780 towards vada pav",
+    "amount": 780,
+    "item": "vada pav",
+    "category": "food"
+  },
+  {
+    "sentence": "bought ghee for 730",
+    "amount": 730,
+    "item": "ghee",
+    "category": "groceries"
+  },
+  {
+    "sentence": "expense of Rs 810 on cab fare",
+    "amount": 810,
+    "item": "cab fare",
+    "category": "transport"
+  },
+  {
+    "sentence": "add 2770 for protein powder",
+    "amount": 2770,
+    "item": "protein powder",
+    "category": "health"
+  },
+  {
+    "sentence": "I spent 160 rs for t-shirt",
+    "amount": 160,
+    "item": "t-shirt",
+    "category": "shopping"
+  },
+  {
+    "sentence": "pharmacy cost me 140",
+    "amount": 140,
+    "item": "pharmacy",
+    "category": "health"
+  },
+  {
+    "sentence": "spent around 2070 rupees on earphones",
+    "amount": 2070,
+    "item": "earphones",
+    "category": "shopping"
+  },
+  {
+    "sentence": "the eye checkup cost 590 rupees",
+    "amount": 590,
+    "item": "eye checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "bought magazine for 500 rs",
+    "amount": 500,
+    "item": "magazine",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "noted Rs 1570 for coaching class",
+    "amount": 1570,
+    "item": "coaching class",
+    "category": "education"
+  },
+  {
+    "sentence": "paid Rs 1930 for escape room",
+    "amount": 1930,
+    "item": "escape room",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "add wallet expense of ₹1710",
+    "amount": 1710,
+    "item": "wallet",
+    "category": "shopping"
+  },
+  {
+    "sentence": "log 2020 rs for kurta",
+    "amount": 2020,
+    "item": "kurta",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I spent 440 rupees for dinner",
+    "amount": 440,
+    "item": "dinner",
+    "category": "food"
+  },
+  {
+    "sentence": "spent ₹550 for eye drops",
+    "amount": 550,
+    "item": "eye drops",
+    "category": "health"
+  },
+  {
+    "sentence": "got printer ink for Rs 3390",
+    "amount": 3390,
+    "item": "printer ink",
+    "category": "education"
+  },
+  {
+    "sentence": "add 710 for tea",
+    "amount": 710,
+    "item": "tea",
+    "category": "food"
+  },
+  {
+    "sentence": "spent 4350 bucks getting belt",
+    "amount": 4350,
+    "item": "belt",
+    "category": "shopping"
+  },
+  {
+    "sentence": "bought dental checkup for 1910",
+    "amount": 1910,
+    "item": "dental checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "I spent ₹4010 for broadband bill",
+    "amount": 4010,
+    "item": "broadband bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "bought metro card for 1450 bucks",
+    "amount": 1450,
+    "item": "metro card",
+    "category": "transport"
+  },
+  {
+    "sentence": "spent 1160 getting certification",
+    "amount": 1160,
+    "item": "certification",
+    "category": "education"
+  },
+  {
+    "sentence": "charged 750 rs for parking",
+    "amount": 750,
+    "item": "parking",
+    "category": "transport"
+  },
+  {
+    "sentence": "I paid 500 for momos",
+    "amount": 500,
+    "item": "momos",
+    "category": "food"
+  },
+  {
+    "sentence": "spent 3480 for newspaper subscription",
+    "amount": 3480,
+    "item": "newspaper subscription",
+    "category": "bills"
+  },
+  {
+    "sentence": "picked up milk shake for 140",
+    "amount": 140,
+    "item": "milk shake",
+    "category": "food"
+  },
+  {
+    "sentence": "just paid 3540 rupees for art supplies",
+    "amount": 3540,
+    "item": "art supplies",
+    "category": "education"
+  },
+  {
+    "sentence": "add 160 bucks for mobile recharge",
+    "amount": 160,
+    "item": "mobile recharge",
+    "category": "bills"
+  },
+  {
+    "sentence": "purchased supplements for 2320",
+    "amount": 2320,
+    "item": "supplements",
+    "category": "health"
+  },
+  {
+    "sentence": "the first aid kit cost ₹710",
+    "amount": 710,
+    "item": "first aid kit",
+    "category": "health"
+  },
+  {
+    "sentence": "DTH recharge was 1120 bucks",
+    "amount": 1120,
+    "item": "DTH recharge",
+    "category": "bills"
+  },
+  {
+    "sentence": "track 230 for pulses",
+    "amount": 230,
+    "item": "pulses",
+    "category": "groceries"
+  },
+  {
+    "sentence": "spent around 340 bucks on samosa",
+    "amount": 340,
+    "item": "samosa",
+    "category": "food"
+  },
+  {
+    "sentence": "paid 2530 bucks for medicine",
+    "amount": 2530,
+    "item": "medicine",
+    "category": "health"
+  },
+  {
+    "sentence": "add idli expense of 610 rupees",
+    "amount": 610,
+    "item": "idli",
+    "category": "food"
+  },
+  {
+    "sentence": "entering expense of 290 rs for poha",
+    "amount": 290,
+    "item": "poha",
+    "category": "groceries"
+  },
+  {
+    "sentence": "added 1860 for eye checkup",
+    "amount": 1860,
+    "item": "eye checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "I paid 1040 rs on escape room",
+    "amount": 1040,
+    "item": "escape room",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "made a payment of ₹1160 for zoo ticket",
+    "amount": 1160,
+    "item": "zoo ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "I spent ₹360 for vegetables",
+    "amount": 360,
+    "item": "vegetables",
+    "category": "groceries"
+  },
+  {
+    "sentence": "purchased coffee powder for Rs 1900",
+    "amount": 1900,
+    "item": "coffee powder",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I purchased magazine worth 1760 rupees",
+    "amount": 1760,
+    "item": "magazine",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "I made a payment of ₹1120 towards phone bill",
+    "amount": 1120,
+    "item": "phone bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "spent 1170 on notebook",
+    "amount": 1170,
+    "item": "notebook",
+    "category": "shopping"
+  },
+  {
+    "sentence": "track 330 for eye drops",
+    "amount": 330,
+    "item": "eye drops",
+    "category": "health"
+  },
+  {
+    "sentence": "I spent 1270 rupees on karaoke",
+    "amount": 1270,
+    "item": "karaoke",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "charged 540 bucks for coffee powder",
+    "amount": 540,
+    "item": "coffee powder",
+    "category": "groceries"
+  },
+  {
+    "sentence": "just spent 230 rs on milk shake",
+    "amount": 230,
+    "item": "milk shake",
+    "category": "food"
+  },
+  {
+    "sentence": "entering expense of 1010 rupees for toothpaste",
+    "amount": 1010,
+    "item": "toothpaste",
+    "category": "groceries"
+  },
+  {
+    "sentence": "approximately 1170 spent on supplements",
+    "amount": 1170,
+    "item": "supplements",
+    "category": "health"
+  },
+  {
+    "sentence": "just spent Rs 4690 on kurta",
+    "amount": 4690,
+    "item": "kurta",
+    "category": "shopping"
+  },
+  {
+    "sentence": "expense of 2630 rs on insurance premium",
+    "amount": 2630,
+    "item": "insurance premium",
+    "category": "bills"
+  },
+  {
+    "sentence": "just spent Rs 720 on pharmacy",
+    "amount": 720,
+    "item": "pharmacy",
+    "category": "health"
+  },
+  {
+    "sentence": "track ₹380 for thali",
+    "amount": 380,
+    "item": "thali",
+    "category": "food"
+  },
+  {
+    "sentence": "added 1440 for parking",
+    "amount": 1440,
+    "item": "parking",
+    "category": "transport"
+  },
+  {
+    "sentence": "log expense of 250 rupees for chips",
+    "amount": 250,
+    "item": "chips",
+    "category": "food"
+  },
+  {
+    "sentence": "I made a payment of ₹220 towards bowling",
+    "amount": 220,
+    "item": "bowling",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "I paid 870 bucks on uber ride",
+    "amount": 870,
+    "item": "uber ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "I spent 690 rupees on coffee",
+    "amount": 690,
+    "item": "coffee",
+    "category": "food"
+  },
+  {
+    "sentence": "spent 2720 rs for stationery",
+    "amount": 2720,
+    "item": "stationery",
+    "category": "education"
+  },
+  {
+    "sentence": "saving ₹2330 as medical report expense",
+    "amount": 2330,
+    "item": "medical report",
+    "category": "health"
+  },
+  {
+    "sentence": "record 290 bucks spent on ferry ticket",
+    "amount": 290,
+    "item": "ferry ticket",
+    "category": "transport"
+  },
+  {
+    "sentence": "spent 2090 rs for library fine",
+    "amount": 2090,
+    "item": "library fine",
+    "category": "education"
+  },
+  {
+    "sentence": "I made a payment of 1800 towards magazine",
+    "amount": 1800,
+    "item": "magazine",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "log ₹270 for snacks",
+    "amount": 270,
+    "item": "snacks",
+    "category": "food"
+  },
+  {
+    "sentence": "spent ₹80 on sweets",
+    "amount": 80,
+    "item": "sweets",
+    "category": "food"
+  },
+  {
+    "sentence": "just bought pav bhaji for 280 rs",
+    "amount": 280,
+    "item": "pav bhaji",
+    "category": "food"
+  },
+  {
+    "sentence": "spent 4350 bucks getting phone bill",
+    "amount": 4350,
+    "item": "phone bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "track Rs 250 for soap",
+    "amount": 250,
+    "item": "soap",
+    "category": "groceries"
+  },
+  {
+    "sentence": "bought mobile cover worth Rs 260",
+    "amount": 260,
+    "item": "mobile cover",
+    "category": "shopping"
+  },
+  {
+    "sentence": "record 3230 rupees spent on drawing kit",
+    "amount": 3230,
+    "item": "drawing kit",
+    "category": "education"
+  },
+  {
+    "sentence": "I paid Rs 4120 on internet bill",
+    "amount": 4120,
+    "item": "internet bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "I paid 1490 bucks on metro card",
+    "amount": 1490,
+    "item": "metro card",
+    "category": "transport"
+  },
+  {
+    "sentence": "just paid Rs 810 for first aid kit",
+    "amount": 810,
+    "item": "first aid kit",
+    "category": "health"
+  },
+  {
+    "sentence": "used Rs 440 for coffee",
+    "amount": 440,
+    "item": "coffee",
+    "category": "food"
+  },
+  {
+    "sentence": "add an expense of 1000 rs for theme park",
+    "amount": 1000,
+    "item": "theme park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "just bought library fine for ₹1800",
+    "amount": 1800,
+    "item": "library fine",
+    "category": "education"
+  },
+  {
+    "sentence": "used 780 rupees for rolls",
+    "amount": 780,
+    "item": "rolls",
+    "category": "food"
+  },
+  {
+    "sentence": "shoes was 400 rupees",
+    "amount": 400,
+    "item": "shoes",
+    "category": "shopping"
+  },
+  {
+    "sentence": "record 1370 rs spent on watch",
+    "amount": 1370,
+    "item": "watch",
+    "category": "shopping"
+  },
+  {
+    "sentence": "noted 4310 rs for lab fee",
+    "amount": 4310,
+    "item": "lab fee",
+    "category": "education"
+  },
+  {
+    "sentence": "noted 870 rupees for bus pass",
+    "amount": 870,
+    "item": "bus pass",
+    "category": "transport"
+  },
+  {
+    "sentence": "the tea cost 330",
+    "amount": 330,
+    "item": "tea",
+    "category": "food"
+  },
+  {
+    "sentence": "charged 3450 rs for newspaper subscription",
+    "amount": 3450,
+    "item": "newspaper subscription",
+    "category": "bills"
+  },
+  {
+    "sentence": "got shirt for ₹4870",
+    "amount": 4870,
+    "item": "shirt",
+    "category": "shopping"
+  },
+  {
+    "sentence": "spent around 3620 rs on art supplies",
+    "amount": 3620,
+    "item": "art supplies",
+    "category": "education"
+  },
+  {
+    "sentence": "approximately 770 rupees spent on noodles",
+    "amount": 770,
+    "item": "noodles",
+    "category": "food"
+  },
+  {
+    "sentence": "saving 2840 rupees as rent expense",
+    "amount": 2840,
+    "item": "rent",
+    "category": "bills"
+  },
+  {
+    "sentence": "I paid 710 on college fee",
+    "amount": 710,
+    "item": "college fee",
+    "category": "education"
+  },
+  {
+    "sentence": "added 3620 for stationery",
+    "amount": 3620,
+    "item": "stationery",
+    "category": "education"
+  },
+  {
+    "sentence": "I paid Rs 610 for medicine",
+    "amount": 610,
+    "item": "medicine",
+    "category": "health"
+  },
+  {
+    "sentence": "paid Rs 1950 for vegetables",
+    "amount": 1950,
+    "item": "vegetables",
+    "category": "groceries"
+  },
+  {
+    "sentence": "the DTH recharge cost Rs 2180",
+    "amount": 2180,
+    "item": "DTH recharge",
+    "category": "bills"
+  },
+  {
+    "sentence": "approximately 550 bucks spent on coffee",
+    "amount": 550,
+    "item": "coffee",
+    "category": "food"
+  },
+  {
+    "sentence": "purchased spices for 720 rupees",
+    "amount": 720,
+    "item": "spices",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I bought cap for 4300",
+    "amount": 4300,
+    "item": "cap",
+    "category": "shopping"
+  },
+  {
+    "sentence": "expense of ₹1290 on zoo ticket",
+    "amount": 1290,
+    "item": "zoo ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "charged ₹4100 for mobile cover",
+    "amount": 4100,
+    "item": "mobile cover",
+    "category": "shopping"
+  },
+  {
+    "sentence": "log 1670 bucks for spices",
+    "amount": 1670,
+    "item": "spices",
+    "category": "groceries"
+  },
+  {
+    "sentence": "added 2180 rupees for credit card bill",
+    "amount": 2180,
+    "item": "credit card bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "purchased earphones for 1220 rs",
+    "amount": 1220,
+    "item": "earphones",
+    "category": "shopping"
+  },
+  {
+    "sentence": "add expense of 740 rupees for credit card bill",
+    "amount": 740,
+    "item": "credit card bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "approximately 2170 rupees spent on blood test",
+    "amount": 2170,
+    "item": "blood test",
+    "category": "health"
+  },
+  {
+    "sentence": "noted 2000 bucks for Netflix subscription",
+    "amount": 2000,
+    "item": "Netflix subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "picked up paneer for 670 rupees",
+    "amount": 670,
+    "item": "paneer",
+    "category": "food"
+  },
+  {
+    "sentence": "picked up jacket for 1720",
+    "amount": 1720,
+    "item": "jacket",
+    "category": "shopping"
+  },
+  {
+    "sentence": "made a payment of Rs 1290 for rickshaw",
+    "amount": 1290,
+    "item": "rickshaw",
+    "category": "transport"
+  },
+  {
+    "sentence": "spent 1920 rs getting spices",
+    "amount": 1920,
+    "item": "spices",
+    "category": "groceries"
+  },
+  {
+    "sentence": "spent 340 rs on samosa",
+    "amount": 340,
+    "item": "samosa",
+    "category": "food"
+  },
+  {
+    "sentence": "spent around ₹830 on first aid kit",
+    "amount": 830,
+    "item": "first aid kit",
+    "category": "health"
+  },
+  {
+    "sentence": "track 420 rs for train ticket",
+    "amount": 420,
+    "item": "train ticket",
+    "category": "transport"
+  },
+  {
+    "sentence": "log expense of 810 bucks for taxi",
+    "amount": 810,
+    "item": "taxi",
+    "category": "transport"
+  },
+  {
+    "sentence": "I purchased first aid kit worth ₹2460",
+    "amount": 2460,
+    "item": "first aid kit",
+    "category": "health"
+  },
+  {
+    "sentence": "paid ₹3200 for the saree",
+    "amount": 3200,
+    "item": "saree",
+    "category": "shopping"
+  },
+  {
+    "sentence": "just paid 530 bucks for taxi",
+    "amount": 530,
+    "item": "taxi",
+    "category": "transport"
+  },
+  {
+    "sentence": "just paid 660 for taxi",
+    "amount": 660,
+    "item": "taxi",
+    "category": "transport"
+  },
+  {
+    "sentence": "spent 1540 rs getting medical report",
+    "amount": 1540,
+    "item": "medical report",
+    "category": "health"
+  },
+  {
+    "sentence": "made a payment of 2190 rs for supplements",
+    "amount": 2190,
+    "item": "supplements",
+    "category": "health"
+  },
+  {
+    "sentence": "paid ₹2980 at DTH recharge",
+    "amount": 2980,
+    "item": "DTH recharge",
+    "category": "bills"
+  },
+  {
+    "sentence": "record expense of 2310 rupees for earphones",
+    "amount": 2310,
+    "item": "earphones",
+    "category": "shopping"
+  },
+  {
+    "sentence": "log expense of 760 rupees for dosa",
+    "amount": 760,
+    "item": "dosa",
+    "category": "food"
+  },
+  {
+    "sentence": "just paid 3430 rupees for mobile recharge",
+    "amount": 3430,
+    "item": "mobile recharge",
+    "category": "bills"
+  },
+  {
+    "sentence": "debited 550 rupees for lab fee",
+    "amount": 550,
+    "item": "lab fee",
+    "category": "education"
+  },
+  {
+    "sentence": "track 1510 bucks for OTT subscription",
+    "amount": 1510,
+    "item": "OTT subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "I made a payment of ₹2540 towards gym membership",
+    "amount": 2540,
+    "item": "gym membership",
+    "category": "health"
+  },
+  {
+    "sentence": "record expense of 1830 rs for concert ticket",
+    "amount": 1830,
+    "item": "concert ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "got dosa for 770 rupees",
+    "amount": 770,
+    "item": "dosa",
+    "category": "food"
+  },
+  {
+    "sentence": "paid Rs 600 for the paneer",
+    "amount": 600,
+    "item": "paneer",
+    "category": "food"
+  },
+  {
+    "sentence": "just paid 360 for rolls",
+    "amount": 360,
+    "item": "rolls",
+    "category": "food"
+  },
+  {
+    "sentence": "I purchased insurance premium worth 4520 rupees",
+    "amount": 4520,
+    "item": "insurance premium",
+    "category": "bills"
+  },
+  {
+    "sentence": "spent around 910 rupees on bread",
+    "amount": 910,
+    "item": "bread",
+    "category": "groceries"
+  },
+  {
+    "sentence": "spent around 1120 on tea leaves",
+    "amount": 1120,
+    "item": "tea leaves",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I spent 4170 rs on college fee",
+    "amount": 4170,
+    "item": "college fee",
+    "category": "education"
+  },
+  {
+    "sentence": "add Rs 4040 for rent",
+    "amount": 4040,
+    "item": "rent",
+    "category": "bills"
+  },
+  {
+    "sentence": "entering expense of 550 bucks for toll charge",
+    "amount": 550,
+    "item": "toll charge",
+    "category": "transport"
+  },
+  {
+    "sentence": "I paid ₹770 on taxi",
+    "amount": 770,
+    "item": "taxi",
+    "category": "transport"
+  },
+  {
+    "sentence": "vitamin tablets was 120 bucks",
+    "amount": 120,
+    "item": "vitamin tablets",
+    "category": "health"
+  },
+  {
+    "sentence": "expense of 2000 rupees on theme park",
+    "amount": 2000,
+    "item": "theme park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "record 340 bucks spent on bowling",
+    "amount": 340,
+    "item": "bowling",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "used ₹1040 for bike service",
+    "amount": 1040,
+    "item": "bike service",
+    "category": "transport"
+  },
+  {
+    "sentence": "I paid ₹1240 for towel",
+    "amount": 1240,
+    "item": "towel",
+    "category": "shopping"
+  },
+  {
+    "sentence": "got certification for 4500",
+    "amount": 4500,
+    "item": "certification",
+    "category": "education"
+  },
+  {
+    "sentence": "picked up blood test for 230 rupees",
+    "amount": 230,
+    "item": "blood test",
+    "category": "health"
+  },
+  {
+    "sentence": "log expense of 4380 for charger",
+    "amount": 4380,
+    "item": "charger",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I paid 910 on petrol",
+    "amount": 910,
+    "item": "petrol",
+    "category": "transport"
+  },
+  {
+    "sentence": "I bought mobile cover for 4160",
+    "amount": 4160,
+    "item": "mobile cover",
+    "category": "shopping"
+  },
+  {
+    "sentence": "just paid 670 for museum ticket",
+    "amount": 670,
+    "item": "museum ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "add 1880 rupees for t-shirt",
+    "amount": 1880,
+    "item": "t-shirt",
+    "category": "shopping"
+  },
+  {
+    "sentence": "picked up library fine for Rs 3380",
+    "amount": 3380,
+    "item": "library fine",
+    "category": "education"
+  },
+  {
+    "sentence": "log expense of 300 bucks for EMI",
+    "amount": 300,
+    "item": "EMI",
+    "category": "bills"
+  },
+  {
+    "sentence": "spent ₹440 on sugar",
+    "amount": 440,
+    "item": "sugar",
+    "category": "groceries"
+  },
+  {
+    "sentence": "picked up magazine for Rs 1760",
+    "amount": 1760,
+    "item": "magazine",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "I spent 1890 rs for DTH recharge",
+    "amount": 1890,
+    "item": "DTH recharge",
+    "category": "bills"
+  },
+  {
+    "sentence": "expense of 1270 bucks on doctor consultation",
+    "amount": 1270,
+    "item": "doctor consultation",
+    "category": "health"
+  },
+  {
+    "sentence": "paid Rs 1970 at amusement park",
+    "amount": 1970,
+    "item": "amusement park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "picked up toll charge for 20 rs",
+    "amount": 20,
+    "item": "toll charge",
+    "category": "transport"
+  },
+  {
+    "sentence": "log ₹1860 for socks",
+    "amount": 1860,
+    "item": "socks",
+    "category": "shopping"
+  },
+  {
+    "sentence": "saving 130 rs as movie ticket expense",
+    "amount": 130,
+    "item": "movie ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "paid 1260 rupees at magazine",
+    "amount": 1260,
+    "item": "magazine",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "added ₹430 for tea",
+    "amount": 430,
+    "item": "tea",
+    "category": "food"
+  },
+  {
+    "sentence": "I spent 2180 rupees on exam fee",
+    "amount": 2180,
+    "item": "exam fee",
+    "category": "education"
+  },
+  {
+    "sentence": "expense of 1770 rs on escape room",
+    "amount": 1770,
+    "item": "escape room",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "track 1250 rupees for spices",
+    "amount": 1250,
+    "item": "spices",
+    "category": "groceries"
+  },
+  {
+    "sentence": "purchased library fine for 3020",
+    "amount": 3020,
+    "item": "library fine",
+    "category": "education"
+  },
+  {
+    "sentence": "I spent Rs 2840 for gas bill",
+    "amount": 2840,
+    "item": "gas bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "spent 270 bucks for chips",
+    "amount": 270,
+    "item": "chips",
+    "category": "food"
+  },
+  {
+    "sentence": "spent 750 bucks on lassi",
+    "amount": 750,
+    "item": "lassi",
+    "category": "food"
+  },
+  {
+    "sentence": "just bought physiotherapy for 1810 rs",
+    "amount": 1810,
+    "item": "physiotherapy",
+    "category": "health"
+  },
+  {
+    "sentence": "got protein powder for 330 rs",
+    "amount": 330,
+    "item": "protein powder",
+    "category": "health"
+  },
+  {
+    "sentence": "bought juice for 320 rs",
+    "amount": 320,
+    "item": "juice",
+    "category": "food"
+  },
+  {
+    "sentence": "I purchased medical report worth 2970 rupees",
+    "amount": 2970,
+    "item": "medical report",
+    "category": "health"
+  },
+  {
+    "sentence": "gas bill cost me ₹3770",
+    "amount": 3770,
+    "item": "gas bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "spent 1260 bucks getting amusement park",
+    "amount": 1260,
+    "item": "amusement park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "debited 1040 rs for pulses",
+    "amount": 1040,
+    "item": "pulses",
+    "category": "groceries"
+  },
+  {
+    "sentence": "charged Rs 380 for zoo ticket",
+    "amount": 380,
+    "item": "zoo ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "paid 1380 rupees for the eggs",
+    "amount": 1380,
+    "item": "eggs",
+    "category": "groceries"
+  },
+  {
+    "sentence": "entering expense of Rs 1800 for Spotify subscription",
+    "amount": 1800,
+    "item": "Spotify subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "paid 1350 rupees towards vaccination",
+    "amount": 1350,
+    "item": "vaccination",
+    "category": "health"
+  },
+  {
+    "sentence": "picked up physiotherapy for 1760",
+    "amount": 1760,
+    "item": "physiotherapy",
+    "category": "health"
+  },
+  {
+    "sentence": "add an expense of 450 rupees for pharmacy",
+    "amount": 450,
+    "item": "pharmacy",
+    "category": "health"
+  },
+  {
+    "sentence": "saving 670 rupees as concert ticket expense",
+    "amount": 670,
+    "item": "concert ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "record expense of 130 rupees for paratha",
+    "amount": 130,
+    "item": "paratha",
+    "category": "food"
+  },
+  {
+    "sentence": "log expense of 2590 rupees for art supplies",
+    "amount": 2590,
+    "item": "art supplies",
+    "category": "education"
+  },
+  {
+    "sentence": "record expense of 710 rs for lunch",
+    "amount": 710,
+    "item": "lunch",
+    "category": "food"
+  },
+  {
+    "sentence": "entering expense of 930 bucks for bus ticket",
+    "amount": 930,
+    "item": "bus ticket",
+    "category": "transport"
+  },
+  {
+    "sentence": "spent ₹930 for fuel",
+    "amount": 930,
+    "item": "fuel",
+    "category": "transport"
+  },
+  {
+    "sentence": "add 150 bucks for online course",
+    "amount": 150,
+    "item": "online course",
+    "category": "education"
+  },
+  {
+    "sentence": "paid 400 at school fee",
+    "amount": 400,
+    "item": "school fee",
+    "category": "education"
+  },
+  {
+    "sentence": "just spent 520 on yoga class",
+    "amount": 520,
+    "item": "yoga class",
+    "category": "health"
+  },
+  {
+    "sentence": "charged 1290 for fuel",
+    "amount": 1290,
+    "item": "fuel",
+    "category": "transport"
+  },
+  {
+    "sentence": "entering expense of 1950 rs for eye checkup",
+    "amount": 1950,
+    "item": "eye checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "debited 2430 rs for insurance premium",
+    "amount": 2430,
+    "item": "insurance premium",
+    "category": "bills"
+  },
+  {
+    "sentence": "log 240 rs for drawing kit",
+    "amount": 240,
+    "item": "drawing kit",
+    "category": "education"
+  },
+  {
+    "sentence": "spent 3240 for credit card bill",
+    "amount": 3240,
+    "item": "credit card bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "record expense of ₹4590 for printer ink",
+    "amount": 4590,
+    "item": "printer ink",
+    "category": "education"
+  },
+  {
+    "sentence": "expense of 600 bucks on Netflix subscription",
+    "amount": 600,
+    "item": "Netflix subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "approximately 2290 spent on medicine",
+    "amount": 2290,
+    "item": "medicine",
+    "category": "health"
+  },
+  {
+    "sentence": "I bought bowling for ₹1960",
+    "amount": 1960,
+    "item": "bowling",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "record expense of 230 bucks for cricket match ticket",
+    "amount": 230,
+    "item": "cricket match ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "entering expense of 300 bucks for chaat",
+    "amount": 300,
+    "item": "chaat",
+    "category": "food"
+  },
+  {
+    "sentence": "I paid Rs 480 on milk",
+    "amount": 480,
+    "item": "milk",
+    "category": "groceries"
+  },
+  {
+    "sentence": "expense of 1160 rupees on credit card bill",
+    "amount": 1160,
+    "item": "credit card bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "paid ₹950 for amusement park",
+    "amount": 950,
+    "item": "amusement park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "used ₹650 for college fee",
+    "amount": 650,
+    "item": "college fee",
+    "category": "education"
+  },
+  {
+    "sentence": "used Rs 2920 for sandals",
+    "amount": 2920,
+    "item": "sandals",
+    "category": "shopping"
+  },
+  {
+    "sentence": "bought milk shake for 160 bucks",
+    "amount": 160,
+    "item": "milk shake",
+    "category": "food"
+  },
+  {
+    "sentence": "made a payment of 1200 bucks for yoga class",
+    "amount": 1200,
+    "item": "yoga class",
+    "category": "health"
+  },
+  {
+    "sentence": "just paid ₹930 for salt",
+    "amount": 930,
+    "item": "salt",
+    "category": "groceries"
+  },
+  {
+    "sentence": "log 320 bucks for dosa",
+    "amount": 320,
+    "item": "dosa",
+    "category": "food"
+  },
+  {
+    "sentence": "I bought concert ticket for ₹1040",
+    "amount": 1040,
+    "item": "concert ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "made a payment of 1260 bucks for paneer",
+    "amount": 1260,
+    "item": "paneer",
+    "category": "groceries"
+  },
+  {
+    "sentence": "track 200 rupees for pizza",
+    "amount": 200,
+    "item": "pizza",
+    "category": "food"
+  },
+  {
+    "sentence": "paid ₹260 for the sweets",
+    "amount": 260,
+    "item": "sweets",
+    "category": "food"
+  },
+  {
+    "sentence": "got rapido ride for 1340 rs",
+    "amount": 1340,
+    "item": "rapido ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "log expense of ₹30 for paratha",
+    "amount": 30,
+    "item": "paratha",
+    "category": "food"
+  },
+  {
+    "sentence": "made a payment of 1560 rupees for mobile cover",
+    "amount": 1560,
+    "item": "mobile cover",
+    "category": "shopping"
+  },
+  {
+    "sentence": "debited 60 rs for zoo ticket",
+    "amount": 60,
+    "item": "zoo ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "charged 1350 rs for cap",
+    "amount": 1350,
+    "item": "cap",
+    "category": "shopping"
+  },
+  {
+    "sentence": "record expense of Rs 1090 for metro card",
+    "amount": 1090,
+    "item": "metro card",
+    "category": "transport"
+  },
+  {
+    "sentence": "track ₹510 for toothpaste",
+    "amount": 510,
+    "item": "toothpaste",
+    "category": "groceries"
+  },
+  {
+    "sentence": "used 1970 rupees for amusement park",
+    "amount": 1970,
+    "item": "amusement park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "saving 2200 as cushion expense",
+    "amount": 2200,
+    "item": "cushion",
+    "category": "shopping"
+  },
+  {
+    "sentence": "record Rs 70 spent on lassi",
+    "amount": 70,
+    "item": "lassi",
+    "category": "food"
+  },
+  {
+    "sentence": "pen cost me 400",
+    "amount": 400,
+    "item": "pen",
+    "category": "shopping"
+  },
+  {
+    "sentence": "log expense of 270 rupees for socks",
+    "amount": 270,
+    "item": "socks",
+    "category": "shopping"
+  },
+  {
+    "sentence": "add an expense of 650 bucks for dinner",
+    "amount": 650,
+    "item": "dinner",
+    "category": "food"
+  },
+  {
+    "sentence": "paid 150 rupees for library fine",
+    "amount": 150,
+    "item": "library fine",
+    "category": "education"
+  },
+  {
+    "sentence": "spent Rs 1290 on vitamin tablets",
+    "amount": 1290,
+    "item": "vitamin tablets",
+    "category": "health"
+  },
+  {
+    "sentence": "picked up milk for 30 bucks",
+    "amount": 30,
+    "item": "milk",
+    "category": "groceries"
+  },
+  {
+    "sentence": "paid Rs 2810 for the pharmacy",
+    "amount": 2810,
+    "item": "pharmacy",
+    "category": "health"
+  },
+  {
+    "sentence": "added 640 for toothpaste",
+    "amount": 640,
+    "item": "toothpaste",
+    "category": "groceries"
+  },
+  {
+    "sentence": "log 2280 for certification",
+    "amount": 2280,
+    "item": "certification",
+    "category": "education"
+  },
+  {
+    "sentence": "paid 320 rs towards escape room",
+    "amount": 320,
+    "item": "escape room",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "add 4820 rs for coaching class",
+    "amount": 4820,
+    "item": "coaching class",
+    "category": "education"
+  },
+  {
+    "sentence": "add an expense of 1280 rupees for magazine",
+    "amount": 1280,
+    "item": "magazine",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "spent 1900 rupees for milk",
+    "amount": 1900,
+    "item": "milk",
+    "category": "groceries"
+  },
+  {
+    "sentence": "add Rs 160 for chocolate",
+    "amount": 160,
+    "item": "chocolate",
+    "category": "food"
+  },
+  {
+    "sentence": "I paid 420 rs on cold coffee",
+    "amount": 420,
+    "item": "cold coffee",
+    "category": "food"
+  },
+  {
+    "sentence": "debited 1490 for Spotify subscription",
+    "amount": 1490,
+    "item": "Spotify subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "I purchased rickshaw worth Rs 440",
+    "amount": 440,
+    "item": "rickshaw",
+    "category": "transport"
+  },
+  {
+    "sentence": "made a payment of ₹2900 for medicine",
+    "amount": 2900,
+    "item": "medicine",
+    "category": "health"
+  },
+  {
+    "sentence": "just bought karaoke for 1950 rupees",
+    "amount": 1950,
+    "item": "karaoke",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "added 1090 rs for bus ticket",
+    "amount": 1090,
+    "item": "bus ticket",
+    "category": "transport"
+  },
+  {
+    "sentence": "drawing kit was Rs 960",
+    "amount": 960,
+    "item": "drawing kit",
+    "category": "education"
+  },
+  {
+    "sentence": "purchased chocolate for 740 rupees",
+    "amount": 740,
+    "item": "chocolate",
+    "category": "food"
+  },
+  {
+    "sentence": "paid ₹1860 towards insurance premium",
+    "amount": 1860,
+    "item": "insurance premium",
+    "category": "bills"
+  },
+  {
+    "sentence": "add vitamin tablets expense of 2440 rupees",
+    "amount": 2440,
+    "item": "vitamin tablets",
+    "category": "health"
+  },
+  {
+    "sentence": "bought saree worth 4580",
+    "amount": 4580,
+    "item": "saree",
+    "category": "shopping"
+  },
+  {
+    "sentence": "picked up eye drops for ₹1240",
+    "amount": 1240,
+    "item": "eye drops",
+    "category": "health"
+  },
+  {
+    "sentence": "the jacket cost Rs 4740",
+    "amount": 4740,
+    "item": "jacket",
+    "category": "shopping"
+  },
+  {
+    "sentence": "concert ticket cost me ₹490",
+    "amount": 490,
+    "item": "concert ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "just bought photo frame for 1540 rupees",
+    "amount": 1540,
+    "item": "photo frame",
+    "category": "shopping"
+  },
+  {
+    "sentence": "add expense of ₹830 for rickshaw",
+    "amount": 830,
+    "item": "rickshaw",
+    "category": "transport"
+  },
+  {
+    "sentence": "just paid 1670 bucks for escape room",
+    "amount": 1670,
+    "item": "escape room",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "charged 1670 rupees for gaming",
+    "amount": 1670,
+    "item": "gaming",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "spent Rs 600 getting maintenance charges",
+    "amount": 600,
+    "item": "maintenance charges",
+    "category": "bills"
+  },
+  {
+    "sentence": "spent 900 rs getting fuel",
+    "amount": 900,
+    "item": "fuel",
+    "category": "transport"
+  },
+  {
+    "sentence": "I bought uber ride for 1410 bucks",
+    "amount": 1410,
+    "item": "uber ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "spent 1780 rupees on exam fee",
+    "amount": 1780,
+    "item": "exam fee",
+    "category": "education"
+  },
+  {
+    "sentence": "paid 2100 rs for the library fine",
+    "amount": 2100,
+    "item": "library fine",
+    "category": "education"
+  },
+  {
+    "sentence": "the idli cost 700 bucks",
+    "amount": 700,
+    "item": "idli",
+    "category": "food"
+  },
+  {
+    "sentence": "paid 890 towards school fee",
+    "amount": 890,
+    "item": "school fee",
+    "category": "education"
+  },
+  {
+    "sentence": "add an expense of 1310 for maintenance charges",
+    "amount": 1310,
+    "item": "maintenance charges",
+    "category": "bills"
+  },
+  {
+    "sentence": "log Rs 2810 for cushion",
+    "amount": 2810,
+    "item": "cushion",
+    "category": "shopping"
+  },
+  {
+    "sentence": "add an expense of ₹550 for breakfast",
+    "amount": 550,
+    "item": "breakfast",
+    "category": "food"
+  },
+  {
+    "sentence": "paid ₹1900 at cap",
+    "amount": 1900,
+    "item": "cap",
+    "category": "shopping"
+  },
+  {
+    "sentence": "add expense of 430 rupees for yoga class",
+    "amount": 430,
+    "item": "yoga class",
+    "category": "health"
+  },
+  {
+    "sentence": "entering expense of Rs 3440 for phone bill",
+    "amount": 3440,
+    "item": "phone bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "spent 140 bucks getting roti",
+    "amount": 140,
+    "item": "roti",
+    "category": "food"
+  },
+  {
+    "sentence": "paid 650 for the cricket match ticket",
+    "amount": 650,
+    "item": "cricket match ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "paid 4110 at DTH recharge",
+    "amount": 4110,
+    "item": "DTH recharge",
+    "category": "bills"
+  },
+  {
+    "sentence": "charged 590 rupees for biscuits",
+    "amount": 590,
+    "item": "biscuits",
+    "category": "food"
+  },
+  {
+    "sentence": "I spent 210 rs on newspaper subscription",
+    "amount": 210,
+    "item": "newspaper subscription",
+    "category": "bills"
+  },
+  {
+    "sentence": "noted 120 rs for pizza",
+    "amount": 120,
+    "item": "pizza",
+    "category": "food"
+  },
+  {
+    "sentence": "approximately 380 bucks spent on OTT subscription",
+    "amount": 380,
+    "item": "OTT subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "saving Rs 130 as book expense",
+    "amount": 130,
+    "item": "book",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "log expense of 1180 rs for blood test",
+    "amount": 1180,
+    "item": "blood test",
+    "category": "health"
+  },
+  {
+    "sentence": "picked up maida for ₹1240",
+    "amount": 1240,
+    "item": "maida",
+    "category": "groceries"
+  },
+  {
+    "sentence": "water bill was Rs 610",
+    "amount": 610,
+    "item": "water bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "bought roti for Rs 600",
+    "amount": 600,
+    "item": "roti",
+    "category": "food"
+  },
+  {
+    "sentence": "add dental checkup expense of 270",
+    "amount": 270,
+    "item": "dental checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "add 3310 bucks for workshop fee",
+    "amount": 3310,
+    "item": "workshop fee",
+    "category": "education"
+  },
+  {
+    "sentence": "entering expense of 290 rupees for medicine",
+    "amount": 290,
+    "item": "medicine",
+    "category": "health"
+  },
+  {
+    "sentence": "record expense of 1130 rs for saree",
+    "amount": 1130,
+    "item": "saree",
+    "category": "shopping"
+  },
+  {
+    "sentence": "used ₹1410 for auto fare",
+    "amount": 1410,
+    "item": "auto fare",
+    "category": "transport"
+  },
+  {
+    "sentence": "record 70 bucks spent on chips",
+    "amount": 70,
+    "item": "chips",
+    "category": "food"
+  },
+  {
+    "sentence": "log ₹1180 for Amazon Prime",
+    "amount": 1180,
+    "item": "Amazon Prime",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "entering expense of 430 bucks for concert ticket",
+    "amount": 430,
+    "item": "concert ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "saving 1400 bucks as dental checkup expense",
+    "amount": 1400,
+    "item": "dental checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "I made a payment of Rs 740 towards rolls",
+    "amount": 740,
+    "item": "rolls",
+    "category": "food"
+  },
+  {
+    "sentence": "spent 2210 rupees on dress",
+    "amount": 2210,
+    "item": "dress",
+    "category": "shopping"
+  },
+  {
+    "sentence": "paid ₹780 for the roti",
+    "amount": 780,
+    "item": "roti",
+    "category": "food"
+  },
+  {
+    "sentence": "added 2740 for course fee",
+    "amount": 2740,
+    "item": "course fee",
+    "category": "education"
+  },
+  {
+    "sentence": "add 660 rupees for Spotify subscription",
+    "amount": 660,
+    "item": "Spotify subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "bought Netflix subscription worth 2000",
+    "amount": 2000,
+    "item": "Netflix subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "track 4160 bucks for course fee",
+    "amount": 4160,
+    "item": "course fee",
+    "category": "education"
+  },
+  {
+    "sentence": "I made a payment of 120 towards rice",
+    "amount": 120,
+    "item": "rice",
+    "category": "food"
+  },
+  {
+    "sentence": "paid 2240 rs for vaccination",
+    "amount": 2240,
+    "item": "vaccination",
+    "category": "health"
+  },
+  {
+    "sentence": "record expense of 840 rs for auto fare",
+    "amount": 840,
+    "item": "auto fare",
+    "category": "transport"
+  },
+  {
+    "sentence": "parking was 920 rs",
+    "amount": 920,
+    "item": "parking",
+    "category": "transport"
+  },
+  {
+    "sentence": "debited Rs 580 for curd",
+    "amount": 580,
+    "item": "curd",
+    "category": "groceries"
+  },
+  {
+    "sentence": "approximately 690 rupees spent on auto fare",
+    "amount": 690,
+    "item": "auto fare",
+    "category": "transport"
+  },
+  {
+    "sentence": "bought shampoo worth 2000 bucks",
+    "amount": 2000,
+    "item": "shampoo",
+    "category": "groceries"
+  },
+  {
+    "sentence": "add expense of 2010 rs for pen drive",
+    "amount": 2010,
+    "item": "pen drive",
+    "category": "education"
+  },
+  {
+    "sentence": "just paid 600 bucks for stationery",
+    "amount": 600,
+    "item": "stationery",
+    "category": "education"
+  },
+  {
+    "sentence": "bread cost me ₹170",
+    "amount": 170,
+    "item": "bread",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I spent 1270 rs for sunglasses",
+    "amount": 1270,
+    "item": "sunglasses",
+    "category": "shopping"
+  },
+  {
+    "sentence": "add an expense of 400 for gym membership",
+    "amount": 400,
+    "item": "gym membership",
+    "category": "health"
+  },
+  {
+    "sentence": "I spent 270 rs on bus pass",
+    "amount": 270,
+    "item": "bus pass",
+    "category": "transport"
+  },
+  {
+    "sentence": "paid 910 rs at poha",
+    "amount": 910,
+    "item": "poha",
+    "category": "groceries"
+  },
+  {
+    "sentence": "just spent ₹700 on towel",
+    "amount": 700,
+    "item": "towel",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I paid 3980 rupees for art supplies",
+    "amount": 3980,
+    "item": "art supplies",
+    "category": "education"
+  },
+  {
+    "sentence": "I paid Rs 670 on dental checkup",
+    "amount": 670,
+    "item": "dental checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "charged 1470 bucks for concert ticket",
+    "amount": 1470,
+    "item": "concert ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "the dress cost 2320 rupees",
+    "amount": 2320,
+    "item": "dress",
+    "category": "shopping"
+  },
+  {
+    "sentence": "entering expense of 2890 rs for socks",
+    "amount": 2890,
+    "item": "socks",
+    "category": "shopping"
+  },
+  {
+    "sentence": "just bought gym membership for 590 bucks",
+    "amount": 590,
+    "item": "gym membership",
+    "category": "health"
+  },
+  {
+    "sentence": "entering expense of 980 rupees for karaoke",
+    "amount": 980,
+    "item": "karaoke",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "made a payment of 700 for tea leaves",
+    "amount": 700,
+    "item": "tea leaves",
+    "category": "groceries"
+  },
+  {
+    "sentence": "saving 200 rs as uber ride expense",
+    "amount": 200,
+    "item": "uber ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "I paid 150 rupees on art supplies",
+    "amount": 150,
+    "item": "art supplies",
+    "category": "education"
+  },
+  {
+    "sentence": "record 4360 spent on college fee",
+    "amount": 4360,
+    "item": "college fee",
+    "category": "education"
+  },
+  {
+    "sentence": "bus pass cost me 250",
+    "amount": 250,
+    "item": "bus pass",
+    "category": "transport"
+  },
+  {
+    "sentence": "bought train ticket worth 650 rs",
+    "amount": 650,
+    "item": "train ticket",
+    "category": "transport"
+  },
+  {
+    "sentence": "spent ₹3600 for school fee",
+    "amount": 3600,
+    "item": "school fee",
+    "category": "education"
+  },
+  {
+    "sentence": "got amusement park for Rs 840",
+    "amount": 840,
+    "item": "amusement park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "add umbrella expense of 430 bucks",
+    "amount": 430,
+    "item": "umbrella",
+    "category": "shopping"
+  },
+  {
+    "sentence": "add Rs 1170 for ola ride",
+    "amount": 1170,
+    "item": "ola ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "charged 4220 for water bill",
+    "amount": 4220,
+    "item": "water bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "add sugar expense of 690 bucks",
+    "amount": 690,
+    "item": "sugar",
+    "category": "groceries"
+  },
+  {
+    "sentence": "add photo frame expense of 4340 rs",
+    "amount": 4340,
+    "item": "photo frame",
+    "category": "shopping"
+  },
+  {
+    "sentence": "track 1000 for soap",
+    "amount": 1000,
+    "item": "soap",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I made a payment of 830 rupees towards auto fare",
+    "amount": 830,
+    "item": "auto fare",
+    "category": "transport"
+  },
+  {
+    "sentence": "bought water bill worth 2970",
+    "amount": 2970,
+    "item": "water bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "spent 120 bucks for samosa",
+    "amount": 120,
+    "item": "samosa",
+    "category": "food"
+  },
+  {
+    "sentence": "track Rs 820 for parking",
+    "amount": 820,
+    "item": "parking",
+    "category": "transport"
+  },
+  {
+    "sentence": "charged Rs 1860 for movie ticket",
+    "amount": 1860,
+    "item": "movie ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "charged 140 rupees for movie ticket",
+    "amount": 140,
+    "item": "movie ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "just spent 2480 rupees on EMI",
+    "amount": 2480,
+    "item": "EMI",
+    "category": "bills"
+  },
+  {
+    "sentence": "the exam fee cost 770 rs",
+    "amount": 770,
+    "item": "exam fee",
+    "category": "education"
+  },
+  {
+    "sentence": "bought rapido ride for 410 rs",
+    "amount": 410,
+    "item": "rapido ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "I purchased DTH recharge worth 1140",
+    "amount": 1140,
+    "item": "DTH recharge",
+    "category": "bills"
+  },
+  {
+    "sentence": "I bought bike service for 1440 rs",
+    "amount": 1440,
+    "item": "bike service",
+    "category": "transport"
+  },
+  {
+    "sentence": "entering expense of ₹370 for paneer",
+    "amount": 370,
+    "item": "paneer",
+    "category": "groceries"
+  },
+  {
+    "sentence": "paid 1670 rs at blood test",
+    "amount": 1670,
+    "item": "blood test",
+    "category": "health"
+  },
+  {
+    "sentence": "purchased maida for 940 bucks",
+    "amount": 940,
+    "item": "maida",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I spent 620 rupees on auto fare",
+    "amount": 620,
+    "item": "auto fare",
+    "category": "transport"
+  },
+  {
+    "sentence": "expense of 540 on gaming",
+    "amount": 540,
+    "item": "gaming",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "spent 1720 rs getting tea leaves",
+    "amount": 1720,
+    "item": "tea leaves",
+    "category": "groceries"
+  },
+  {
+    "sentence": "used 3040 rupees for printer ink",
+    "amount": 3040,
+    "item": "printer ink",
+    "category": "education"
+  },
+  {
+    "sentence": "sandwich was 750 rs",
+    "amount": 750,
+    "item": "sandwich",
+    "category": "food"
+  },
+  {
+    "sentence": "charged Rs 320 for ola ride",
+    "amount": 320,
+    "item": "ola ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "record 1430 rupees spent on earphones",
+    "amount": 1430,
+    "item": "earphones",
+    "category": "shopping"
+  },
+  {
+    "sentence": "record 2470 rupees spent on EMI",
+    "amount": 2470,
+    "item": "EMI",
+    "category": "bills"
+  },
+  {
+    "sentence": "I spent 1970 rs on book",
+    "amount": 1970,
+    "item": "book",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "spent around ₹730 on coaching class",
+    "amount": 730,
+    "item": "coaching class",
+    "category": "education"
+  },
+  {
+    "sentence": "add an expense of Rs 4340 for rent",
+    "amount": 4340,
+    "item": "rent",
+    "category": "bills"
+  },
+  {
+    "sentence": "add expense of 1210 bucks for books",
+    "amount": 1210,
+    "item": "books",
+    "category": "education"
+  },
+  {
+    "sentence": "record Rs 230 spent on pav bhaji",
+    "amount": 230,
+    "item": "pav bhaji",
+    "category": "food"
+  },
+  {
+    "sentence": "spent ₹470 for fuel",
+    "amount": 470,
+    "item": "fuel",
+    "category": "transport"
+  },
+  {
+    "sentence": "paid 1550 rs at doctor consultation",
+    "amount": 1550,
+    "item": "doctor consultation",
+    "category": "health"
+  },
+  {
+    "sentence": "just spent 2040 on physiotherapy",
+    "amount": 2040,
+    "item": "physiotherapy",
+    "category": "health"
+  },
+  {
+    "sentence": "got atta for 360 bucks",
+    "amount": 360,
+    "item": "atta",
+    "category": "groceries"
+  },
+  {
+    "sentence": "purchased dry fruits for 1150",
+    "amount": 1150,
+    "item": "dry fruits",
+    "category": "groceries"
+  },
+  {
+    "sentence": "saving 390 rupees as ice cream expense",
+    "amount": 390,
+    "item": "ice cream",
+    "category": "food"
+  },
+  {
+    "sentence": "spent 2020 rupees getting coaching class",
+    "amount": 2020,
+    "item": "coaching class",
+    "category": "education"
+  },
+  {
+    "sentence": "just bought lassi for 260 bucks",
+    "amount": 260,
+    "item": "lassi",
+    "category": "food"
+  },
+  {
+    "sentence": "add expense of Rs 2110 for dental checkup",
+    "amount": 2110,
+    "item": "dental checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "paid 1640 rs for the shampoo",
+    "amount": 1640,
+    "item": "shampoo",
+    "category": "groceries"
+  },
+  {
+    "sentence": "karaoke was ₹340",
+    "amount": 340,
+    "item": "karaoke",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "spent around 4470 bucks on pen drive",
+    "amount": 4470,
+    "item": "pen drive",
+    "category": "education"
+  },
+  {
+    "sentence": "entering expense of 240 rs for amusement park",
+    "amount": 240,
+    "item": "amusement park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "spent Rs 780 on sooji",
+    "amount": 780,
+    "item": "sooji",
+    "category": "groceries"
+  },
+  {
+    "sentence": "log 3630 rs for phone bill",
+    "amount": 3630,
+    "item": "phone bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "I made a payment of ₹3870 towards art supplies",
+    "amount": 3870,
+    "item": "art supplies",
+    "category": "education"
+  },
+  {
+    "sentence": "I paid 110 rupees for poha",
+    "amount": 110,
+    "item": "poha",
+    "category": "groceries"
+  },
+  {
+    "sentence": "paid Rs 4530 for the broadband bill",
+    "amount": 4530,
+    "item": "broadband bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "got concert ticket for 280 rs",
+    "amount": 280,
+    "item": "concert ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "add expense of ₹520 for rolls",
+    "amount": 520,
+    "item": "rolls",
+    "category": "food"
+  },
+  {
+    "sentence": "paid 4350 rs at internet bill",
+    "amount": 4350,
+    "item": "internet bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "paid 160 at diesel",
+    "amount": 160,
+    "item": "diesel",
+    "category": "transport"
+  },
+  {
+    "sentence": "add ₹1100 for vegetables",
+    "amount": 1100,
+    "item": "vegetables",
+    "category": "groceries"
+  },
+  {
+    "sentence": "paid ₹1180 towards sugar",
+    "amount": 1180,
+    "item": "sugar",
+    "category": "groceries"
+  },
+  {
+    "sentence": "spent ₹180 getting bread",
+    "amount": 180,
+    "item": "bread",
+    "category": "groceries"
+  },
+  {
+    "sentence": "paid ₹490 for the shampoo",
+    "amount": 490,
+    "item": "shampoo",
+    "category": "groceries"
+  },
+  {
+    "sentence": "made a payment of 350 rupees for bus pass",
+    "amount": 350,
+    "item": "bus pass",
+    "category": "transport"
+  },
+  {
+    "sentence": "I paid 340 for detergent",
+    "amount": 340,
+    "item": "detergent",
+    "category": "groceries"
+  },
+  {
+    "sentence": "noted 1480 bucks for diesel",
+    "amount": 1480,
+    "item": "diesel",
+    "category": "transport"
+  },
+  {
+    "sentence": "I spent 4920 rs for mobile cover",
+    "amount": 4920,
+    "item": "mobile cover",
+    "category": "shopping"
+  },
+  {
+    "sentence": "just spent Rs 1580 on doctor consultation",
+    "amount": 1580,
+    "item": "doctor consultation",
+    "category": "health"
+  },
+  {
+    "sentence": "bought workshop fee for 860 rs",
+    "amount": 860,
+    "item": "workshop fee",
+    "category": "education"
+  },
+  {
+    "sentence": "paid 260 for momos",
+    "amount": 260,
+    "item": "momos",
+    "category": "food"
+  },
+  {
+    "sentence": "just bought escape room for ₹430",
+    "amount": 430,
+    "item": "escape room",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "debited 4140 bucks for broadband bill",
+    "amount": 4140,
+    "item": "broadband bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "record 1140 spent on bus pass",
+    "amount": 1140,
+    "item": "bus pass",
+    "category": "transport"
+  },
+  {
+    "sentence": "bought car wash for 370 rs",
+    "amount": 370,
+    "item": "car wash",
+    "category": "transport"
+  },
+  {
+    "sentence": "track Rs 1480 for uber ride",
+    "amount": 1480,
+    "item": "uber ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "add gaming expense of Rs 1170",
+    "amount": 1170,
+    "item": "gaming",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "add yoga class expense of ₹140",
+    "amount": 140,
+    "item": "yoga class",
+    "category": "health"
+  },
+  {
+    "sentence": "add an expense of 920 rupees for concert ticket",
+    "amount": 920,
+    "item": "concert ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "purchased gaming for 1670 bucks",
+    "amount": 1670,
+    "item": "gaming",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "add ₹2130 for maintenance charges",
+    "amount": 2130,
+    "item": "maintenance charges",
+    "category": "bills"
+  },
+  {
+    "sentence": "record expense of 2180 rs for eye drops",
+    "amount": 2180,
+    "item": "eye drops",
+    "category": "health"
+  },
+  {
+    "sentence": "the sugar cost 50 rupees",
+    "amount": 50,
+    "item": "sugar",
+    "category": "groceries"
+  },
+  {
+    "sentence": "spent 3890 rupees for lab fee",
+    "amount": 3890,
+    "item": "lab fee",
+    "category": "education"
+  },
+  {
+    "sentence": "drawing kit cost me 420 bucks",
+    "amount": 420,
+    "item": "drawing kit",
+    "category": "education"
+  },
+  {
+    "sentence": "I spent 1120 for taxi",
+    "amount": 1120,
+    "item": "taxi",
+    "category": "transport"
+  },
+  {
+    "sentence": "noted 2140 bucks for blood test",
+    "amount": 2140,
+    "item": "blood test",
+    "category": "health"
+  },
+  {
+    "sentence": "just spent 470 bucks on tea",
+    "amount": 470,
+    "item": "tea",
+    "category": "food"
+  },
+  {
+    "sentence": "just spent 3220 rupees on cable bill",
+    "amount": 3220,
+    "item": "cable bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "I spent ₹700 for noodles",
+    "amount": 700,
+    "item": "noodles",
+    "category": "food"
+  },
+  {
+    "sentence": "used 380 for insurance premium",
+    "amount": 380,
+    "item": "insurance premium",
+    "category": "bills"
+  },
+  {
+    "sentence": "just spent 4030 rs on pen drive",
+    "amount": 4030,
+    "item": "pen drive",
+    "category": "education"
+  },
+  {
+    "sentence": "paid Rs 1170 at jacket",
+    "amount": 1170,
+    "item": "jacket",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I paid 830 for book",
+    "amount": 830,
+    "item": "book",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "I paid 1300 rupees for bag",
+    "amount": 1300,
+    "item": "bag",
+    "category": "shopping"
+  },
+  {
+    "sentence": "added ₹3290 for broadband bill",
+    "amount": 3290,
+    "item": "broadband bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "saving 130 as Spotify subscription expense",
+    "amount": 130,
+    "item": "Spotify subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "add expense of 1900 rs for sugar",
+    "amount": 1900,
+    "item": "sugar",
+    "category": "groceries"
+  },
+  {
+    "sentence": "got dress for 3340 bucks",
+    "amount": 3340,
+    "item": "dress",
+    "category": "shopping"
+  },
+  {
+    "sentence": "paid ₹1960 for museum ticket",
+    "amount": 1960,
+    "item": "museum ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "entering expense of 2480 for cap",
+    "amount": 2480,
+    "item": "cap",
+    "category": "shopping"
+  },
+  {
+    "sentence": "log expense of Rs 1820 for magazine",
+    "amount": 1820,
+    "item": "magazine",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "used Rs 380 for train ticket",
+    "amount": 380,
+    "item": "train ticket",
+    "category": "transport"
+  },
+  {
+    "sentence": "record expense of 1990 rs for theme park",
+    "amount": 1990,
+    "item": "theme park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "paid 700 rs at course fee",
+    "amount": 700,
+    "item": "course fee",
+    "category": "education"
+  },
+  {
+    "sentence": "add expense of Rs 870 for uber ride",
+    "amount": 870,
+    "item": "uber ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "got sandals for 3650 rupees",
+    "amount": 3650,
+    "item": "sandals",
+    "category": "shopping"
+  },
+  {
+    "sentence": "spent around 3400 rs on water bill",
+    "amount": 3400,
+    "item": "water bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "spent 1170 rupees getting Spotify subscription",
+    "amount": 1170,
+    "item": "Spotify subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "charged ₹1290 for protein powder",
+    "amount": 1290,
+    "item": "protein powder",
+    "category": "health"
+  },
+  {
+    "sentence": "got escape room for 70 rs",
+    "amount": 70,
+    "item": "escape room",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "paid 2110 bucks at school fee",
+    "amount": 2110,
+    "item": "school fee",
+    "category": "education"
+  },
+  {
+    "sentence": "purchased paneer for 210",
+    "amount": 210,
+    "item": "paneer",
+    "category": "food"
+  },
+  {
+    "sentence": "record expense of ₹4710 for dress",
+    "amount": 4710,
+    "item": "dress",
+    "category": "shopping"
+  },
+  {
+    "sentence": "spent 1490 rupees on insurance premium",
+    "amount": 1490,
+    "item": "insurance premium",
+    "category": "bills"
+  },
+  {
+    "sentence": "log 160 rupees for idli",
+    "amount": 160,
+    "item": "idli",
+    "category": "food"
+  },
+  {
+    "sentence": "track 1740 bucks for books",
+    "amount": 1740,
+    "item": "books",
+    "category": "education"
+  },
+  {
+    "sentence": "added Rs 280 for lassi",
+    "amount": 280,
+    "item": "lassi",
+    "category": "food"
+  },
+  {
+    "sentence": "expense of 730 on water bill",
+    "amount": 730,
+    "item": "water bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "paid Rs 430 towards toothpaste",
+    "amount": 430,
+    "item": "toothpaste",
+    "category": "groceries"
+  },
+  {
+    "sentence": "charged 1200 rs for gym membership",
+    "amount": 1200,
+    "item": "gym membership",
+    "category": "health"
+  },
+  {
+    "sentence": "track 200 bucks for paneer",
+    "amount": 200,
+    "item": "paneer",
+    "category": "food"
+  },
+  {
+    "sentence": "I made a payment of ₹3840 towards saree",
+    "amount": 3840,
+    "item": "saree",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I made a payment of 720 bucks towards butter",
+    "amount": 720,
+    "item": "butter",
+    "category": "groceries"
+  },
+  {
+    "sentence": "the bowling cost 250 rupees",
+    "amount": 250,
+    "item": "bowling",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "paid ₹640 for biscuits",
+    "amount": 640,
+    "item": "biscuits",
+    "category": "food"
+  },
+  {
+    "sentence": "add expense of Rs 2720 for vaccination",
+    "amount": 2720,
+    "item": "vaccination",
+    "category": "health"
+  },
+  {
+    "sentence": "noted Rs 1970 for amusement park",
+    "amount": 1970,
+    "item": "amusement park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "paid Rs 2570 towards vaccination",
+    "amount": 2570,
+    "item": "vaccination",
+    "category": "health"
+  },
+  {
+    "sentence": "spent ₹110 for rice",
+    "amount": 110,
+    "item": "rice",
+    "category": "food"
+  },
+  {
+    "sentence": "picked up pulses for ₹1710",
+    "amount": 1710,
+    "item": "pulses",
+    "category": "groceries"
+  },
+  {
+    "sentence": "just paid 1200 rupees for drawing kit",
+    "amount": 1200,
+    "item": "drawing kit",
+    "category": "education"
+  },
+  {
+    "sentence": "spent ₹1770 getting yoga class",
+    "amount": 1770,
+    "item": "yoga class",
+    "category": "health"
+  },
+  {
+    "sentence": "certification was Rs 4610",
+    "amount": 4610,
+    "item": "certification",
+    "category": "education"
+  },
+  {
+    "sentence": "expense of 170 rupees on movie ticket",
+    "amount": 170,
+    "item": "movie ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "log expense of 1400 bucks for Amazon Prime",
+    "amount": 1400,
+    "item": "Amazon Prime",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "expense of 4210 rupees on charger",
+    "amount": 4210,
+    "item": "charger",
+    "category": "shopping"
+  },
+  {
+    "sentence": "paid 520 for toothpaste",
+    "amount": 520,
+    "item": "toothpaste",
+    "category": "groceries"
+  },
+  {
+    "sentence": "used ₹4760 for maintenance charges",
+    "amount": 4760,
+    "item": "maintenance charges",
+    "category": "bills"
+  },
+  {
+    "sentence": "the sweets cost ₹750",
+    "amount": 750,
+    "item": "sweets",
+    "category": "food"
+  },
+  {
+    "sentence": "the OTT subscription cost 780 rs",
+    "amount": 780,
+    "item": "OTT subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "expense of 3200 on socks",
+    "amount": 3200,
+    "item": "socks",
+    "category": "shopping"
+  },
+  {
+    "sentence": "picked up cushion for 1840",
+    "amount": 1840,
+    "item": "cushion",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I made a payment of 440 bucks towards tuition fee",
+    "amount": 440,
+    "item": "tuition fee",
+    "category": "education"
+  },
+  {
+    "sentence": "spent ₹700 getting pharmacy",
+    "amount": 700,
+    "item": "pharmacy",
+    "category": "health"
+  },
+  {
+    "sentence": "log expense of 2680 rs for workshop fee",
+    "amount": 2680,
+    "item": "workshop fee",
+    "category": "education"
+  },
+  {
+    "sentence": "used 50 rs for oil",
+    "amount": 50,
+    "item": "oil",
+    "category": "groceries"
+  },
+  {
+    "sentence": "spent around 950 bucks on amusement park",
+    "amount": 950,
+    "item": "amusement park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "got shirt for ₹750",
+    "amount": 750,
+    "item": "shirt",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I paid 540 bucks for diesel",
+    "amount": 540,
+    "item": "diesel",
+    "category": "transport"
+  },
+  {
+    "sentence": "paid 4540 for drawing kit",
+    "amount": 4540,
+    "item": "drawing kit",
+    "category": "education"
+  },
+  {
+    "sentence": "just spent ₹150 on movie ticket",
+    "amount": 150,
+    "item": "movie ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "made a payment of 620 rs for ola ride",
+    "amount": 620,
+    "item": "ola ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "picked up spices for 990 rupees",
+    "amount": 990,
+    "item": "spices",
+    "category": "groceries"
+  },
+  {
+    "sentence": "spent 2200 bucks getting wallet",
+    "amount": 2200,
+    "item": "wallet",
+    "category": "shopping"
+  },
+  {
+    "sentence": "saving 50 bucks as drawing kit expense",
+    "amount": 50,
+    "item": "drawing kit",
+    "category": "education"
+  },
+  {
+    "sentence": "I bought school fee for 1770 rupees",
+    "amount": 1770,
+    "item": "school fee",
+    "category": "education"
+  },
+  {
+    "sentence": "noted 4140 bucks for lab fee",
+    "amount": 4140,
+    "item": "lab fee",
+    "category": "education"
+  },
+  {
+    "sentence": "just bought mobile cover for 2300 bucks",
+    "amount": 2300,
+    "item": "mobile cover",
+    "category": "shopping"
+  },
+  {
+    "sentence": "entering expense of Rs 410 for Amazon Prime",
+    "amount": 410,
+    "item": "Amazon Prime",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "add karaoke expense of 870 rupees",
+    "amount": 870,
+    "item": "karaoke",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "expense of 270 rs on EMI",
+    "amount": 270,
+    "item": "EMI",
+    "category": "bills"
+  },
+  {
+    "sentence": "added 530 for burger",
+    "amount": 530,
+    "item": "burger",
+    "category": "food"
+  },
+  {
+    "sentence": "paid 1770 bucks for bowling",
+    "amount": 1770,
+    "item": "bowling",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "log expense of Rs 670 for chocolate",
+    "amount": 670,
+    "item": "chocolate",
+    "category": "food"
+  },
+  {
+    "sentence": "spent Rs 710 getting rolls",
+    "amount": 710,
+    "item": "rolls",
+    "category": "food"
+  },
+  {
+    "sentence": "eggs was 1210 rs",
+    "amount": 1210,
+    "item": "eggs",
+    "category": "groceries"
+  },
+  {
+    "sentence": "the broadband bill cost 3960",
+    "amount": 3960,
+    "item": "broadband bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "paid ₹20 for the pizza",
+    "amount": 20,
+    "item": "pizza",
+    "category": "food"
+  },
+  {
+    "sentence": "paid 390 rupees for the cab fare",
+    "amount": 390,
+    "item": "cab fare",
+    "category": "transport"
+  },
+  {
+    "sentence": "debited 750 for onions",
+    "amount": 750,
+    "item": "onions",
+    "category": "groceries"
+  },
+  {
+    "sentence": "add expense of Rs 2360 for protein powder",
+    "amount": 2360,
+    "item": "protein powder",
+    "category": "health"
+  },
+  {
+    "sentence": "bought broadband bill for 1320 rs",
+    "amount": 1320,
+    "item": "broadband bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "picked up book for ₹200",
+    "amount": 200,
+    "item": "book",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "track ₹1100 for EMI",
+    "amount": 1100,
+    "item": "EMI",
+    "category": "bills"
+  },
+  {
+    "sentence": "just spent 760 rupees on curd",
+    "amount": 760,
+    "item": "curd",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I spent Rs 1640 for sooji",
+    "amount": 1640,
+    "item": "sooji",
+    "category": "groceries"
+  },
+  {
+    "sentence": "paid 120 rs for the DTH recharge",
+    "amount": 120,
+    "item": "DTH recharge",
+    "category": "bills"
+  },
+  {
+    "sentence": "purchased saree for 1730 bucks",
+    "amount": 1730,
+    "item": "saree",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I paid 1250 rupees on bread",
+    "amount": 1250,
+    "item": "bread",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I paid 4580 rupees for socks",
+    "amount": 4580,
+    "item": "socks",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I made a payment of 1470 towards yoga class",
+    "amount": 1470,
+    "item": "yoga class",
+    "category": "health"
+  },
+  {
+    "sentence": "sooji was 660",
+    "amount": 660,
+    "item": "sooji",
+    "category": "groceries"
+  },
+  {
+    "sentence": "noted 720 for gas bill",
+    "amount": 720,
+    "item": "gas bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "paid Rs 2150 at mobile recharge",
+    "amount": 2150,
+    "item": "mobile recharge",
+    "category": "bills"
+  },
+  {
+    "sentence": "the pulses cost ₹950",
+    "amount": 950,
+    "item": "pulses",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I paid 2760 for newspaper subscription",
+    "amount": 2760,
+    "item": "newspaper subscription",
+    "category": "bills"
+  },
+  {
+    "sentence": "got doctor consultation for Rs 2370",
+    "amount": 2370,
+    "item": "doctor consultation",
+    "category": "health"
+  },
+  {
+    "sentence": "approximately 1040 rs spent on pen drive",
+    "amount": 1040,
+    "item": "pen drive",
+    "category": "education"
+  },
+  {
+    "sentence": "spent 400 rs on amusement park",
+    "amount": 400,
+    "item": "amusement park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "I made a payment of 1200 rupees towards theme park",
+    "amount": 1200,
+    "item": "theme park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "noted 380 bucks for bike service",
+    "amount": 380,
+    "item": "bike service",
+    "category": "transport"
+  },
+  {
+    "sentence": "blood test was 350 rupees",
+    "amount": 350,
+    "item": "blood test",
+    "category": "health"
+  },
+  {
+    "sentence": "just paid 950 rs for physiotherapy",
+    "amount": 950,
+    "item": "physiotherapy",
+    "category": "health"
+  },
+  {
+    "sentence": "protein powder was ₹1370",
+    "amount": 1370,
+    "item": "protein powder",
+    "category": "health"
+  },
+  {
+    "sentence": "I spent Rs 2640 on protein powder",
+    "amount": 2640,
+    "item": "protein powder",
+    "category": "health"
+  },
+  {
+    "sentence": "made a payment of ₹1210 for mobile recharge",
+    "amount": 1210,
+    "item": "mobile recharge",
+    "category": "bills"
+  },
+  {
+    "sentence": "track 260 for petrol",
+    "amount": 260,
+    "item": "petrol",
+    "category": "transport"
+  },
+  {
+    "sentence": "log expense of 570 rs for noodles",
+    "amount": 570,
+    "item": "noodles",
+    "category": "food"
+  },
+  {
+    "sentence": "log Rs 1840 for tea leaves",
+    "amount": 1840,
+    "item": "tea leaves",
+    "category": "groceries"
+  },
+  {
+    "sentence": "spent 110 rupees on ice cream",
+    "amount": 110,
+    "item": "ice cream",
+    "category": "food"
+  },
+  {
+    "sentence": "add expense of 2030 for school fee",
+    "amount": 2030,
+    "item": "school fee",
+    "category": "education"
+  },
+  {
+    "sentence": "just bought dress for 4320 rupees",
+    "amount": 4320,
+    "item": "dress",
+    "category": "shopping"
+  },
+  {
+    "sentence": "log ₹640 for cap",
+    "amount": 640,
+    "item": "cap",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I spent 120 rs on parking",
+    "amount": 120,
+    "item": "parking",
+    "category": "transport"
+  },
+  {
+    "sentence": "approximately ₹3710 spent on broadband bill",
+    "amount": 3710,
+    "item": "broadband bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "add an expense of 140 for bus pass",
+    "amount": 140,
+    "item": "bus pass",
+    "category": "transport"
+  },
+  {
+    "sentence": "paid Rs 1060 at oil",
+    "amount": 1060,
+    "item": "oil",
+    "category": "groceries"
+  },
+  {
+    "sentence": "paid 4810 rupees at gas bill",
+    "amount": 4810,
+    "item": "gas bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "added 1520 bucks for pulses",
+    "amount": 1520,
+    "item": "pulses",
+    "category": "groceries"
+  },
+  {
+    "sentence": "paid Rs 1160 for the butter",
+    "amount": 1160,
+    "item": "butter",
+    "category": "groceries"
+  },
+  {
+    "sentence": "made a payment of Rs 1450 for karaoke",
+    "amount": 1450,
+    "item": "karaoke",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "I spent ₹2330 for health checkup",
+    "amount": 2330,
+    "item": "health checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "charged ₹4250 for sandals",
+    "amount": 4250,
+    "item": "sandals",
+    "category": "shopping"
+  },
+  {
+    "sentence": "added 1400 rs for ferry ticket",
+    "amount": 1400,
+    "item": "ferry ticket",
+    "category": "transport"
+  },
+  {
+    "sentence": "record ₹1350 spent on school fee",
+    "amount": 1350,
+    "item": "school fee",
+    "category": "education"
+  },
+  {
+    "sentence": "just bought vaccination for ₹270",
+    "amount": 270,
+    "item": "vaccination",
+    "category": "health"
+  },
+  {
+    "sentence": "add petrol expense of Rs 990",
+    "amount": 990,
+    "item": "petrol",
+    "category": "transport"
+  },
+  {
+    "sentence": "paid 2630 rs for health checkup",
+    "amount": 2630,
+    "item": "health checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "spent Rs 1400 getting amusement park",
+    "amount": 1400,
+    "item": "amusement park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "log expense of ₹130 for toll charge",
+    "amount": 130,
+    "item": "toll charge",
+    "category": "transport"
+  },
+  {
+    "sentence": "add movie ticket expense of 1220",
+    "amount": 1220,
+    "item": "movie ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "spent 2980 for socks",
+    "amount": 2980,
+    "item": "socks",
+    "category": "shopping"
+  },
+  {
+    "sentence": "bought fruits for ₹920",
+    "amount": 920,
+    "item": "fruits",
+    "category": "groceries"
+  },
+  {
+    "sentence": "add 1080 rs for train ticket",
+    "amount": 1080,
+    "item": "train ticket",
+    "category": "transport"
+  },
+  {
+    "sentence": "add expense of 830 bucks for Netflix subscription",
+    "amount": 830,
+    "item": "Netflix subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "paid ₹370 for poha",
+    "amount": 370,
+    "item": "poha",
+    "category": "groceries"
+  },
+  {
+    "sentence": "add ₹4080 for wallet",
+    "amount": 4080,
+    "item": "wallet",
+    "category": "shopping"
+  },
+  {
+    "sentence": "added 120 rupees for Spotify subscription",
+    "amount": 120,
+    "item": "Spotify subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "record 880 rupees spent on karaoke",
+    "amount": 880,
+    "item": "karaoke",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "picked up theme park for 1440",
+    "amount": 1440,
+    "item": "theme park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "spent Rs 4550 on books",
+    "amount": 4550,
+    "item": "books",
+    "category": "education"
+  },
+  {
+    "sentence": "uber ride was 960 rupees",
+    "amount": 960,
+    "item": "uber ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "track Rs 2010 for college fee",
+    "amount": 2010,
+    "item": "college fee",
+    "category": "education"
+  },
+  {
+    "sentence": "spent around Rs 1080 on petrol",
+    "amount": 1080,
+    "item": "petrol",
+    "category": "transport"
+  },
+  {
+    "sentence": "bought petrol for 560 bucks",
+    "amount": 560,
+    "item": "petrol",
+    "category": "transport"
+  },
+  {
+    "sentence": "I paid Rs 770 on DTH recharge",
+    "amount": 770,
+    "item": "DTH recharge",
+    "category": "bills"
+  },
+  {
+    "sentence": "bought fruits worth 810 bucks",
+    "amount": 810,
+    "item": "fruits",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I bought cake for ₹30",
+    "amount": 30,
+    "item": "cake",
+    "category": "food"
+  },
+  {
+    "sentence": "I spent 4440 rs for t-shirt",
+    "amount": 4440,
+    "item": "t-shirt",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I paid 4840 bucks for broadband bill",
+    "amount": 4840,
+    "item": "broadband bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "add momos expense of 300 bucks",
+    "amount": 300,
+    "item": "momos",
+    "category": "food"
+  },
+  {
+    "sentence": "sandals was 1830 rs",
+    "amount": 1830,
+    "item": "sandals",
+    "category": "shopping"
+  },
+  {
+    "sentence": "picked up samosa for 790 bucks",
+    "amount": 790,
+    "item": "samosa",
+    "category": "food"
+  },
+  {
+    "sentence": "I spent Rs 3870 for phone bill",
+    "amount": 3870,
+    "item": "phone bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "paid 720 rupees at juice",
+    "amount": 720,
+    "item": "juice",
+    "category": "food"
+  },
+  {
+    "sentence": "entering expense of 550 bucks for chips",
+    "amount": 550,
+    "item": "chips",
+    "category": "food"
+  },
+  {
+    "sentence": "just spent ₹1450 on magazine",
+    "amount": 1450,
+    "item": "magazine",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "expense of 1900 rs on dal",
+    "amount": 1900,
+    "item": "dal",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I paid 1640 rupees on amusement park",
+    "amount": 1640,
+    "item": "amusement park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "used 2600 rupees for eye drops",
+    "amount": 2600,
+    "item": "eye drops",
+    "category": "health"
+  },
+  {
+    "sentence": "purchased bike service for 1000 rs",
+    "amount": 1000,
+    "item": "bike service",
+    "category": "transport"
+  },
+  {
+    "sentence": "just paid 1560 for theme park",
+    "amount": 1560,
+    "item": "theme park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "paid 80 rupees for chocolate",
+    "amount": 80,
+    "item": "chocolate",
+    "category": "food"
+  },
+  {
+    "sentence": "spent 770 bucks getting coaching class",
+    "amount": 770,
+    "item": "coaching class",
+    "category": "education"
+  },
+  {
+    "sentence": "purchased OTT subscription for Rs 930",
+    "amount": 930,
+    "item": "OTT subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "purchased online course for 3400",
+    "amount": 3400,
+    "item": "online course",
+    "category": "education"
+  },
+  {
+    "sentence": "just bought ice cream for Rs 150",
+    "amount": 150,
+    "item": "ice cream",
+    "category": "food"
+  },
+  {
+    "sentence": "spent around 310 rs on Amazon Prime",
+    "amount": 310,
+    "item": "Amazon Prime",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "used 3660 rupees for internet bill",
+    "amount": 3660,
+    "item": "internet bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "just spent 2270 on blood test",
+    "amount": 2270,
+    "item": "blood test",
+    "category": "health"
+  },
+  {
+    "sentence": "I purchased Spotify subscription worth Rs 300",
+    "amount": 300,
+    "item": "Spotify subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "debited 250 rs for Spotify subscription",
+    "amount": 250,
+    "item": "Spotify subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "spent 1460 rs on water bill",
+    "amount": 1460,
+    "item": "water bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "just bought blood test for 830 rupees",
+    "amount": 830,
+    "item": "blood test",
+    "category": "health"
+  },
+  {
+    "sentence": "spent 710 getting amusement park",
+    "amount": 710,
+    "item": "amusement park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "noted Rs 90 for ice cream",
+    "amount": 90,
+    "item": "ice cream",
+    "category": "food"
+  },
+  {
+    "sentence": "entering expense of 1360 bucks for poha",
+    "amount": 1360,
+    "item": "poha",
+    "category": "groceries"
+  },
+  {
+    "sentence": "approximately 2680 rupees spent on broadband bill",
+    "amount": 2680,
+    "item": "broadband bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "spent around Rs 1120 on spices",
+    "amount": 1120,
+    "item": "spices",
+    "category": "groceries"
+  },
+  {
+    "sentence": "spent 790 rupees on taxi",
+    "amount": 790,
+    "item": "taxi",
+    "category": "transport"
+  },
+  {
+    "sentence": "record ₹1770 spent on milk",
+    "amount": 1770,
+    "item": "milk",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I purchased gym membership worth 2930",
+    "amount": 2930,
+    "item": "gym membership",
+    "category": "health"
+  },
+  {
+    "sentence": "add an expense of Rs 530 for museum ticket",
+    "amount": 530,
+    "item": "museum ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "charged 650 rupees for paneer",
+    "amount": 650,
+    "item": "paneer",
+    "category": "food"
+  },
+  {
+    "sentence": "add mobile recharge expense of 380 bucks",
+    "amount": 380,
+    "item": "mobile recharge",
+    "category": "bills"
+  },
+  {
+    "sentence": "track 1180 bucks for towel",
+    "amount": 1180,
+    "item": "towel",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I spent 2880 rupees on vitamin tablets",
+    "amount": 2880,
+    "item": "vitamin tablets",
+    "category": "health"
+  },
+  {
+    "sentence": "I spent 4090 for phone bill",
+    "amount": 4090,
+    "item": "phone bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "I bought Amazon Prime for Rs 180",
+    "amount": 180,
+    "item": "Amazon Prime",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "made a payment of Rs 430 for chocolate",
+    "amount": 430,
+    "item": "chocolate",
+    "category": "food"
+  },
+  {
+    "sentence": "add expense of 1210 bucks for rapido ride",
+    "amount": 1210,
+    "item": "rapido ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "record expense of 2510 bucks for maintenance charges",
+    "amount": 2510,
+    "item": "maintenance charges",
+    "category": "bills"
+  },
+  {
+    "sentence": "made a payment of 1660 bucks for blood test",
+    "amount": 1660,
+    "item": "blood test",
+    "category": "health"
+  },
+  {
+    "sentence": "the workshop fee cost ₹3740",
+    "amount": 3740,
+    "item": "workshop fee",
+    "category": "education"
+  },
+  {
+    "sentence": "the drawing kit cost 3960 bucks",
+    "amount": 3960,
+    "item": "drawing kit",
+    "category": "education"
+  },
+  {
+    "sentence": "picked up coaching class for 600",
+    "amount": 600,
+    "item": "coaching class",
+    "category": "education"
+  },
+  {
+    "sentence": "debited 630 for momos",
+    "amount": 630,
+    "item": "momos",
+    "category": "food"
+  },
+  {
+    "sentence": "picked up broadband bill for 3960 rs",
+    "amount": 3960,
+    "item": "broadband bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "picked up tea for 430 bucks",
+    "amount": 430,
+    "item": "tea",
+    "category": "food"
+  },
+  {
+    "sentence": "paid 1510 bucks towards vaccination",
+    "amount": 1510,
+    "item": "vaccination",
+    "category": "health"
+  },
+  {
+    "sentence": "spent 1200 rupees getting protein powder",
+    "amount": 1200,
+    "item": "protein powder",
+    "category": "health"
+  },
+  {
+    "sentence": "debited 3850 rs for charger",
+    "amount": 3850,
+    "item": "charger",
+    "category": "shopping"
+  },
+  {
+    "sentence": "paid 2440 rupees at cable bill",
+    "amount": 2440,
+    "item": "cable bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "I paid 1510 bucks for EMI",
+    "amount": 1510,
+    "item": "EMI",
+    "category": "bills"
+  },
+  {
+    "sentence": "bought printer ink for 4150 rs",
+    "amount": 4150,
+    "item": "printer ink",
+    "category": "education"
+  },
+  {
+    "sentence": "I paid ₹300 for juice",
+    "amount": 300,
+    "item": "juice",
+    "category": "food"
+  },
+  {
+    "sentence": "noted 1370 rs for cricket match ticket",
+    "amount": 1370,
+    "item": "cricket match ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "add an expense of 4270 for rent",
+    "amount": 4270,
+    "item": "rent",
+    "category": "bills"
+  },
+  {
+    "sentence": "add Rs 1790 for books",
+    "amount": 1790,
+    "item": "books",
+    "category": "education"
+  },
+  {
+    "sentence": "paid Rs 1620 at paneer",
+    "amount": 1620,
+    "item": "paneer",
+    "category": "groceries"
+  },
+  {
+    "sentence": "paid 1880 for the escape room",
+    "amount": 1880,
+    "item": "escape room",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "log expense of 90 rs for bike service",
+    "amount": 90,
+    "item": "bike service",
+    "category": "transport"
+  },
+  {
+    "sentence": "just paid 690 rs for detergent",
+    "amount": 690,
+    "item": "detergent",
+    "category": "groceries"
+  },
+  {
+    "sentence": "made a payment of 330 rs for curd",
+    "amount": 330,
+    "item": "curd",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I spent 140 rs for paratha",
+    "amount": 140,
+    "item": "paratha",
+    "category": "food"
+  },
+  {
+    "sentence": "just spent 2630 rupees on physiotherapy",
+    "amount": 2630,
+    "item": "physiotherapy",
+    "category": "health"
+  },
+  {
+    "sentence": "the toothpaste cost ₹1750",
+    "amount": 1750,
+    "item": "toothpaste",
+    "category": "groceries"
+  },
+  {
+    "sentence": "the protein powder cost 2270 rupees",
+    "amount": 2270,
+    "item": "protein powder",
+    "category": "health"
+  },
+  {
+    "sentence": "I made a payment of 890 towards shampoo",
+    "amount": 890,
+    "item": "shampoo",
+    "category": "groceries"
+  },
+  {
+    "sentence": "add 170 rupees for noodles",
+    "amount": 170,
+    "item": "noodles",
+    "category": "food"
+  },
+  {
+    "sentence": "paid 2740 rupees for cap",
+    "amount": 2740,
+    "item": "cap",
+    "category": "shopping"
+  },
+  {
+    "sentence": "saving 760 as idli expense",
+    "amount": 760,
+    "item": "idli",
+    "category": "food"
+  },
+  {
+    "sentence": "paid 1800 for the EMI",
+    "amount": 1800,
+    "item": "EMI",
+    "category": "bills"
+  },
+  {
+    "sentence": "purchased magazine for 1010 bucks",
+    "amount": 1010,
+    "item": "magazine",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "record expense of Rs 230 for bike service",
+    "amount": 230,
+    "item": "bike service",
+    "category": "transport"
+  },
+  {
+    "sentence": "just bought cricket match ticket for 580",
+    "amount": 580,
+    "item": "cricket match ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "add breakfast expense of 320",
+    "amount": 320,
+    "item": "breakfast",
+    "category": "food"
+  },
+  {
+    "sentence": "noted ₹4260 for notebook",
+    "amount": 4260,
+    "item": "notebook",
+    "category": "shopping"
+  },
+  {
+    "sentence": "bought notebook for 4850 rs",
+    "amount": 4850,
+    "item": "notebook",
+    "category": "shopping"
+  },
+  {
+    "sentence": "the cab fare cost 900",
+    "amount": 900,
+    "item": "cab fare",
+    "category": "transport"
+  },
+  {
+    "sentence": "spent ₹2980 getting stationery",
+    "amount": 2980,
+    "item": "stationery",
+    "category": "education"
+  },
+  {
+    "sentence": "dinner cost me 130",
+    "amount": 130,
+    "item": "dinner",
+    "category": "food"
+  },
+  {
+    "sentence": "just spent 790 rupees on electricity bill",
+    "amount": 790,
+    "item": "electricity bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "paid 1240 for the sooji",
+    "amount": 1240,
+    "item": "sooji",
+    "category": "groceries"
+  },
+  {
+    "sentence": "log 670 rs for milk shake",
+    "amount": 670,
+    "item": "milk shake",
+    "category": "food"
+  },
+  {
+    "sentence": "paid 480 rupees towards burger",
+    "amount": 480,
+    "item": "burger",
+    "category": "food"
+  },
+  {
+    "sentence": "I paid 160 on metro card",
+    "amount": 160,
+    "item": "metro card",
+    "category": "transport"
+  },
+  {
+    "sentence": "just paid Rs 830 for blood test",
+    "amount": 830,
+    "item": "blood test",
+    "category": "health"
+  },
+  {
+    "sentence": "paid Rs 480 at Spotify subscription",
+    "amount": 480,
+    "item": "Spotify subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "I paid 2330 rupees for art supplies",
+    "amount": 2330,
+    "item": "art supplies",
+    "category": "education"
+  },
+  {
+    "sentence": "record 290 rupees spent on gaming",
+    "amount": 290,
+    "item": "gaming",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "expense of 2100 rs on health checkup",
+    "amount": 2100,
+    "item": "health checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "add an expense of Rs 620 for dental checkup",
+    "amount": 620,
+    "item": "dental checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "juice cost me Rs 200",
+    "amount": 200,
+    "item": "juice",
+    "category": "food"
+  },
+  {
+    "sentence": "just bought doctor consultation for 690 rupees",
+    "amount": 690,
+    "item": "doctor consultation",
+    "category": "health"
+  },
+  {
+    "sentence": "add expense of 860 rs for car wash",
+    "amount": 860,
+    "item": "car wash",
+    "category": "transport"
+  },
+  {
+    "sentence": "got bike service for 830 rs",
+    "amount": 830,
+    "item": "bike service",
+    "category": "transport"
+  },
+  {
+    "sentence": "record expense of 250 for metro card",
+    "amount": 250,
+    "item": "metro card",
+    "category": "transport"
+  },
+  {
+    "sentence": "charged 640 rs for roti",
+    "amount": 640,
+    "item": "roti",
+    "category": "food"
+  },
+  {
+    "sentence": "made a payment of Rs 2690 for medical report",
+    "amount": 2690,
+    "item": "medical report",
+    "category": "health"
+  },
+  {
+    "sentence": "just paid 1350 bucks for doctor consultation",
+    "amount": 1350,
+    "item": "doctor consultation",
+    "category": "health"
+  },
+  {
+    "sentence": "bought electricity bill worth ₹3140",
+    "amount": 3140,
+    "item": "electricity bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "I made a payment of 1090 bucks towards jeans",
+    "amount": 1090,
+    "item": "jeans",
+    "category": "shopping"
+  },
+  {
+    "sentence": "record expense of 40 for bread",
+    "amount": 40,
+    "item": "bread",
+    "category": "groceries"
+  },
+  {
+    "sentence": "log 330 for milk",
+    "amount": 330,
+    "item": "milk",
+    "category": "groceries"
+  },
+  {
+    "sentence": "record ₹4370 spent on dress",
+    "amount": 4370,
+    "item": "dress",
+    "category": "shopping"
+  },
+  {
+    "sentence": "paid ₹680 for tea",
+    "amount": 680,
+    "item": "tea",
+    "category": "food"
+  },
+  {
+    "sentence": "record expense of 560 for biscuits",
+    "amount": 560,
+    "item": "biscuits",
+    "category": "food"
+  },
+  {
+    "sentence": "paid ₹2490 at umbrella",
+    "amount": 2490,
+    "item": "umbrella",
+    "category": "shopping"
+  },
+  {
+    "sentence": "paid 430 rupees for vaccination",
+    "amount": 430,
+    "item": "vaccination",
+    "category": "health"
+  },
+  {
+    "sentence": "the bus pass cost Rs 490",
+    "amount": 490,
+    "item": "bus pass",
+    "category": "transport"
+  },
+  {
+    "sentence": "got ice cream for 400 bucks",
+    "amount": 400,
+    "item": "ice cream",
+    "category": "food"
+  },
+  {
+    "sentence": "I spent ₹2120 for pharmacy",
+    "amount": 2120,
+    "item": "pharmacy",
+    "category": "health"
+  },
+  {
+    "sentence": "charged 2520 rs for dress",
+    "amount": 2520,
+    "item": "dress",
+    "category": "shopping"
+  },
+  {
+    "sentence": "paid ₹4250 for the maintenance charges",
+    "amount": 4250,
+    "item": "maintenance charges",
+    "category": "bills"
+  },
+  {
+    "sentence": "record 710 spent on tuition fee",
+    "amount": 710,
+    "item": "tuition fee",
+    "category": "education"
+  },
+  {
+    "sentence": "just paid 3590 for internet bill",
+    "amount": 3590,
+    "item": "internet bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "spent around 1470 rupees on poha",
+    "amount": 1470,
+    "item": "poha",
+    "category": "groceries"
+  },
+  {
+    "sentence": "charged Rs 3950 for cushion",
+    "amount": 3950,
+    "item": "cushion",
+    "category": "shopping"
+  },
+  {
+    "sentence": "just bought rent for 660 rupees",
+    "amount": 660,
+    "item": "rent",
+    "category": "bills"
+  },
+  {
+    "sentence": "I paid 1980 for maida",
+    "amount": 1980,
+    "item": "maida",
+    "category": "groceries"
+  },
+  {
+    "sentence": "noted 2580 rs for electricity bill",
+    "amount": 2580,
+    "item": "electricity bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "log 2140 bucks for pharmacy",
+    "amount": 2140,
+    "item": "pharmacy",
+    "category": "health"
+  },
+  {
+    "sentence": "purchased movie ticket for 1900 rupees",
+    "amount": 1900,
+    "item": "movie ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "debited 2000 for workshop fee",
+    "amount": 2000,
+    "item": "workshop fee",
+    "category": "education"
+  },
+  {
+    "sentence": "spent 480 rupees for snacks",
+    "amount": 480,
+    "item": "snacks",
+    "category": "food"
+  },
+  {
+    "sentence": "added Rs 1790 for protein powder",
+    "amount": 1790,
+    "item": "protein powder",
+    "category": "health"
+  },
+  {
+    "sentence": "record expense of Rs 4200 for wallet",
+    "amount": 4200,
+    "item": "wallet",
+    "category": "shopping"
+  },
+  {
+    "sentence": "exam fee was 1180",
+    "amount": 1180,
+    "item": "exam fee",
+    "category": "education"
+  },
+  {
+    "sentence": "entering expense of Rs 50 for car wash",
+    "amount": 50,
+    "item": "car wash",
+    "category": "transport"
+  },
+  {
+    "sentence": "log 1580 rs for protein powder",
+    "amount": 1580,
+    "item": "protein powder",
+    "category": "health"
+  },
+  {
+    "sentence": "debited 280 rs for sandwich",
+    "amount": 280,
+    "item": "sandwich",
+    "category": "food"
+  },
+  {
+    "sentence": "bought metro card worth ₹20",
+    "amount": 20,
+    "item": "metro card",
+    "category": "transport"
+  },
+  {
+    "sentence": "the coaching class cost ₹240",
+    "amount": 240,
+    "item": "coaching class",
+    "category": "education"
+  },
+  {
+    "sentence": "I paid ₹90 on chips",
+    "amount": 90,
+    "item": "chips",
+    "category": "food"
+  },
+  {
+    "sentence": "record expense of 4460 rupees for insurance premium",
+    "amount": 4460,
+    "item": "insurance premium",
+    "category": "bills"
+  },
+  {
+    "sentence": "I made a payment of 1040 rupees towards library fine",
+    "amount": 1040,
+    "item": "library fine",
+    "category": "education"
+  },
+  {
+    "sentence": "spent 1270 on electricity bill",
+    "amount": 1270,
+    "item": "electricity bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "just bought internet bill for 3900",
+    "amount": 3900,
+    "item": "internet bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "used 240 rs for Amazon Prime",
+    "amount": 240,
+    "item": "Amazon Prime",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "purchased rent for ₹4680",
+    "amount": 4680,
+    "item": "rent",
+    "category": "bills"
+  },
+  {
+    "sentence": "picked up fruits for ₹1190",
+    "amount": 1190,
+    "item": "fruits",
+    "category": "groceries"
+  },
+  {
+    "sentence": "expense of 1380 rupees on theme park",
+    "amount": 1380,
+    "item": "theme park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "karaoke was ₹1110",
+    "amount": 1110,
+    "item": "karaoke",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "record expense of Rs 580 for coffee",
+    "amount": 580,
+    "item": "coffee",
+    "category": "food"
+  },
+  {
+    "sentence": "bowling was Rs 1790",
+    "amount": 1790,
+    "item": "bowling",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "purchased water bill for 3490 rupees",
+    "amount": 3490,
+    "item": "water bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "paid Rs 200 for the medical report",
+    "amount": 200,
+    "item": "medical report",
+    "category": "health"
+  },
+  {
+    "sentence": "noted Rs 640 for taxi",
+    "amount": 640,
+    "item": "taxi",
+    "category": "transport"
+  },
+  {
+    "sentence": "I paid Rs 360 for dosa",
+    "amount": 360,
+    "item": "dosa",
+    "category": "food"
+  },
+  {
+    "sentence": "paid 1780 bucks at newspaper subscription",
+    "amount": 1780,
+    "item": "newspaper subscription",
+    "category": "bills"
+  },
+  {
+    "sentence": "paid 560 rupees for the parking",
+    "amount": 560,
+    "item": "parking",
+    "category": "transport"
+  },
+  {
+    "sentence": "got roti for 560",
+    "amount": 560,
+    "item": "roti",
+    "category": "food"
+  },
+  {
+    "sentence": "I spent ₹360 for OTT subscription",
+    "amount": 360,
+    "item": "OTT subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "charged 150 bucks for tea leaves",
+    "amount": 150,
+    "item": "tea leaves",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I purchased sugar worth Rs 920",
+    "amount": 920,
+    "item": "sugar",
+    "category": "groceries"
+  },
+  {
+    "sentence": "just bought roti for ₹770",
+    "amount": 770,
+    "item": "roti",
+    "category": "food"
+  },
+  {
+    "sentence": "paid 670 rs for the escape room",
+    "amount": 670,
+    "item": "escape room",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "record expense of 2180 bucks for saree",
+    "amount": 2180,
+    "item": "saree",
+    "category": "shopping"
+  },
+  {
+    "sentence": "add an expense of 630 rupees for theme park",
+    "amount": 630,
+    "item": "theme park",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "the physiotherapy cost ₹2450",
+    "amount": 2450,
+    "item": "physiotherapy",
+    "category": "health"
+  },
+  {
+    "sentence": "debited 2400 rupees for eye checkup",
+    "amount": 2400,
+    "item": "eye checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "debited Rs 550 for books",
+    "amount": 550,
+    "item": "books",
+    "category": "education"
+  },
+  {
+    "sentence": "I bought Netflix subscription for 1210 rs",
+    "amount": 1210,
+    "item": "Netflix subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "track 220 bucks for soap",
+    "amount": 220,
+    "item": "soap",
+    "category": "groceries"
+  },
+  {
+    "sentence": "record Rs 2880 spent on jeans",
+    "amount": 2880,
+    "item": "jeans",
+    "category": "shopping"
+  },
+  {
+    "sentence": "spent ₹60 for metro card",
+    "amount": 60,
+    "item": "metro card",
+    "category": "transport"
+  },
+  {
+    "sentence": "I paid 910 rupees for taxi",
+    "amount": 910,
+    "item": "taxi",
+    "category": "transport"
+  },
+  {
+    "sentence": "picked up towel for 920 rupees",
+    "amount": 920,
+    "item": "towel",
+    "category": "shopping"
+  },
+  {
+    "sentence": "metro card was 1200",
+    "amount": 1200,
+    "item": "metro card",
+    "category": "transport"
+  },
+  {
+    "sentence": "eggs cost me Rs 1020",
+    "amount": 1020,
+    "item": "eggs",
+    "category": "groceries"
+  },
+  {
+    "sentence": "log Rs 2430 for t-shirt",
+    "amount": 2430,
+    "item": "t-shirt",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I made a payment of 430 towards eggs",
+    "amount": 430,
+    "item": "eggs",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I paid ₹2400 for certification",
+    "amount": 2400,
+    "item": "certification",
+    "category": "education"
+  },
+  {
+    "sentence": "entering expense of 360 rs for escape room",
+    "amount": 360,
+    "item": "escape room",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "used 1050 for workshop fee",
+    "amount": 1050,
+    "item": "workshop fee",
+    "category": "education"
+  },
+  {
+    "sentence": "saving Rs 2860 as drawing kit expense",
+    "amount": 2860,
+    "item": "drawing kit",
+    "category": "education"
+  },
+  {
+    "sentence": "entering expense of 1410 rs for school fee",
+    "amount": 1410,
+    "item": "school fee",
+    "category": "education"
+  },
+  {
+    "sentence": "log expense of 1250 rupees for rent",
+    "amount": 1250,
+    "item": "rent",
+    "category": "bills"
+  },
+  {
+    "sentence": "paid ₹970 for rapido ride",
+    "amount": 970,
+    "item": "rapido ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "paid 1020 rs for pulses",
+    "amount": 1020,
+    "item": "pulses",
+    "category": "groceries"
+  },
+  {
+    "sentence": "just bought detergent for Rs 450",
+    "amount": 450,
+    "item": "detergent",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I paid 40 bucks on pav bhaji",
+    "amount": 40,
+    "item": "pav bhaji",
+    "category": "food"
+  },
+  {
+    "sentence": "entering expense of 730 rupees for cake",
+    "amount": 730,
+    "item": "cake",
+    "category": "food"
+  },
+  {
+    "sentence": "expense of 1080 rupees on protein powder",
+    "amount": 1080,
+    "item": "protein powder",
+    "category": "health"
+  },
+  {
+    "sentence": "made a payment of 2470 bucks for library fine",
+    "amount": 2470,
+    "item": "library fine",
+    "category": "education"
+  },
+  {
+    "sentence": "entering expense of 3160 rupees for gas bill",
+    "amount": 3160,
+    "item": "gas bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "added 4960 rupees for cable bill",
+    "amount": 4960,
+    "item": "cable bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "noted 470 rupees for metro card",
+    "amount": 470,
+    "item": "metro card",
+    "category": "transport"
+  },
+  {
+    "sentence": "spent around 1480 on salt",
+    "amount": 1480,
+    "item": "salt",
+    "category": "groceries"
+  },
+  {
+    "sentence": "approximately 630 bucks spent on samosa",
+    "amount": 630,
+    "item": "samosa",
+    "category": "food"
+  },
+  {
+    "sentence": "just bought exam fee for 4780 rs",
+    "amount": 4780,
+    "item": "exam fee",
+    "category": "education"
+  },
+  {
+    "sentence": "I purchased movie ticket worth 110 rs",
+    "amount": 110,
+    "item": "movie ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "used 420 rs for bowling",
+    "amount": 420,
+    "item": "bowling",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "noted ₹1400 for gym membership",
+    "amount": 1400,
+    "item": "gym membership",
+    "category": "health"
+  },
+  {
+    "sentence": "entering expense of ₹2600 for maintenance charges",
+    "amount": 2600,
+    "item": "maintenance charges",
+    "category": "bills"
+  },
+  {
+    "sentence": "paid 900 bucks towards rapido ride",
+    "amount": 900,
+    "item": "rapido ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "wallet cost me ₹4400",
+    "amount": 4400,
+    "item": "wallet",
+    "category": "shopping"
+  },
+  {
+    "sentence": "track 3530 bucks for electricity bill",
+    "amount": 3530,
+    "item": "electricity bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "I made a payment of Rs 880 towards car wash",
+    "amount": 880,
+    "item": "car wash",
+    "category": "transport"
+  },
+  {
+    "sentence": "paid 1230 bucks for metro card",
+    "amount": 1230,
+    "item": "metro card",
+    "category": "transport"
+  },
+  {
+    "sentence": "I paid 180 rupees for escape room",
+    "amount": 180,
+    "item": "escape room",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "spent Rs 700 for protein powder",
+    "amount": 700,
+    "item": "protein powder",
+    "category": "health"
+  },
+  {
+    "sentence": "I paid 1180 on bread",
+    "amount": 1180,
+    "item": "bread",
+    "category": "groceries"
+  },
+  {
+    "sentence": "charged 1200 rs for bowling",
+    "amount": 1200,
+    "item": "bowling",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "log 840 bucks for supplements",
+    "amount": 840,
+    "item": "supplements",
+    "category": "health"
+  },
+  {
+    "sentence": "saving 660 bucks as toll charge expense",
+    "amount": 660,
+    "item": "toll charge",
+    "category": "transport"
+  },
+  {
+    "sentence": "add dress expense of 4810 bucks",
+    "amount": 4810,
+    "item": "dress",
+    "category": "shopping"
+  },
+  {
+    "sentence": "spent 360 bucks for metro card",
+    "amount": 360,
+    "item": "metro card",
+    "category": "transport"
+  },
+  {
+    "sentence": "record 200 rupees spent on parking",
+    "amount": 200,
+    "item": "parking",
+    "category": "transport"
+  },
+  {
+    "sentence": "track 720 rs for pav bhaji",
+    "amount": 720,
+    "item": "pav bhaji",
+    "category": "food"
+  },
+  {
+    "sentence": "got rice for 710",
+    "amount": 710,
+    "item": "rice",
+    "category": "food"
+  },
+  {
+    "sentence": "just bought dental checkup for 570 rs",
+    "amount": 570,
+    "item": "dental checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "paid Rs 970 towards toll charge",
+    "amount": 970,
+    "item": "toll charge",
+    "category": "transport"
+  },
+  {
+    "sentence": "purchased milk for 1860",
+    "amount": 1860,
+    "item": "milk",
+    "category": "groceries"
+  },
+  {
+    "sentence": "expense of 500 rupees on samosa",
+    "amount": 500,
+    "item": "samosa",
+    "category": "food"
+  },
+  {
+    "sentence": "spent 220 bucks on Amazon Prime",
+    "amount": 220,
+    "item": "Amazon Prime",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "entering expense of 560 rs for EMI",
+    "amount": 560,
+    "item": "EMI",
+    "category": "bills"
+  },
+  {
+    "sentence": "picked up bus pass for Rs 590",
+    "amount": 590,
+    "item": "bus pass",
+    "category": "transport"
+  },
+  {
+    "sentence": "log expense of ₹1850 for eye drops",
+    "amount": 1850,
+    "item": "eye drops",
+    "category": "health"
+  },
+  {
+    "sentence": "paid Rs 1150 at cable bill",
+    "amount": 1150,
+    "item": "cable bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "spent around ₹430 on library fine",
+    "amount": 430,
+    "item": "library fine",
+    "category": "education"
+  },
+  {
+    "sentence": "I paid ₹4720 for jacket",
+    "amount": 4720,
+    "item": "jacket",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I bought soap for 600",
+    "amount": 600,
+    "item": "soap",
+    "category": "groceries"
+  },
+  {
+    "sentence": "just bought milk for ₹950",
+    "amount": 950,
+    "item": "milk",
+    "category": "groceries"
+  },
+  {
+    "sentence": "bowling cost me 1160 bucks",
+    "amount": 1160,
+    "item": "bowling",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "I spent 1050 bucks for rickshaw",
+    "amount": 1050,
+    "item": "rickshaw",
+    "category": "transport"
+  },
+  {
+    "sentence": "insurance premium cost me ₹670",
+    "amount": 670,
+    "item": "insurance premium",
+    "category": "bills"
+  },
+  {
+    "sentence": "made a payment of 3780 rupees for internet bill",
+    "amount": 3780,
+    "item": "internet bill",
+    "category": "bills"
+  },
+  {
+    "sentence": "just bought magazine for 540 bucks",
+    "amount": 540,
+    "item": "magazine",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "just spent 2420 on pen",
+    "amount": 2420,
+    "item": "pen",
+    "category": "shopping"
+  },
+  {
+    "sentence": "charged 1510 rupees for pulses",
+    "amount": 1510,
+    "item": "pulses",
+    "category": "groceries"
+  },
+  {
+    "sentence": "yoga class cost me ₹820",
+    "amount": 820,
+    "item": "yoga class",
+    "category": "health"
+  },
+  {
+    "sentence": "just paid 120 bucks for pulses",
+    "amount": 120,
+    "item": "pulses",
+    "category": "groceries"
+  },
+  {
+    "sentence": "just paid 750 rs for book",
+    "amount": 750,
+    "item": "book",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "I spent 2660 on dental checkup",
+    "amount": 2660,
+    "item": "dental checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "record ₹970 spent on book",
+    "amount": 970,
+    "item": "book",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "add books expense of 2950 rs",
+    "amount": 2950,
+    "item": "books",
+    "category": "education"
+  },
+  {
+    "sentence": "picked up eye checkup for 920 bucks",
+    "amount": 920,
+    "item": "eye checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "just paid ₹2770 for art supplies",
+    "amount": 2770,
+    "item": "art supplies",
+    "category": "education"
+  },
+  {
+    "sentence": "used 1270 for rapido ride",
+    "amount": 1270,
+    "item": "rapido ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "add an expense of ₹580 for Spotify subscription",
+    "amount": 580,
+    "item": "Spotify subscription",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "I paid 1190 rs on atta",
+    "amount": 1190,
+    "item": "atta",
+    "category": "groceries"
+  },
+  {
+    "sentence": "just paid Rs 1320 for magazine",
+    "amount": 1320,
+    "item": "magazine",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "spent ₹3170 getting school fee",
+    "amount": 3170,
+    "item": "school fee",
+    "category": "education"
+  },
+  {
+    "sentence": "spent ₹2820 getting bag",
+    "amount": 2820,
+    "item": "bag",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I spent ₹680 on dinner",
+    "amount": 680,
+    "item": "dinner",
+    "category": "food"
+  },
+  {
+    "sentence": "spent around 970 bucks on zoo ticket",
+    "amount": 970,
+    "item": "zoo ticket",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "expense of 430 on tea",
+    "amount": 430,
+    "item": "tea",
+    "category": "food"
+  },
+  {
+    "sentence": "record 2560 rs spent on physiotherapy",
+    "amount": 2560,
+    "item": "physiotherapy",
+    "category": "health"
+  },
+  {
+    "sentence": "debited 1370 for coaching class",
+    "amount": 1370,
+    "item": "coaching class",
+    "category": "education"
+  },
+  {
+    "sentence": "purchased noodles for 790 rupees",
+    "amount": 790,
+    "item": "noodles",
+    "category": "food"
+  },
+  {
+    "sentence": "spent around Rs 1210 on ferry ticket",
+    "amount": 1210,
+    "item": "ferry ticket",
+    "category": "transport"
+  },
+  {
+    "sentence": "entering expense of 2360 rs for medical report",
+    "amount": 2360,
+    "item": "medical report",
+    "category": "health"
+  },
+  {
+    "sentence": "add an expense of 340 rupees for sandwich",
+    "amount": 340,
+    "item": "sandwich",
+    "category": "food"
+  },
+  {
+    "sentence": "got cab fare for 50 rupees",
+    "amount": 50,
+    "item": "cab fare",
+    "category": "transport"
+  },
+  {
+    "sentence": "add expense of 760 rupees for diesel",
+    "amount": 760,
+    "item": "diesel",
+    "category": "transport"
+  },
+  {
+    "sentence": "bought soap for ₹640",
+    "amount": 640,
+    "item": "soap",
+    "category": "groceries"
+  },
+  {
+    "sentence": "add expense of 420 bucks for dal",
+    "amount": 420,
+    "item": "dal",
+    "category": "groceries"
+  },
+  {
+    "sentence": "spent 1000 rupees for DTH recharge",
+    "amount": 1000,
+    "item": "DTH recharge",
+    "category": "bills"
+  },
+  {
+    "sentence": "I purchased ferry ticket worth Rs 670",
+    "amount": 670,
+    "item": "ferry ticket",
+    "category": "transport"
+  },
+  {
+    "sentence": "I paid ₹1360 on ola ride",
+    "amount": 1360,
+    "item": "ola ride",
+    "category": "transport"
+  },
+  {
+    "sentence": "I made a payment of Rs 40 towards bus pass",
+    "amount": 40,
+    "item": "bus pass",
+    "category": "transport"
+  },
+  {
+    "sentence": "purchased coaching class for 1770",
+    "amount": 1770,
+    "item": "coaching class",
+    "category": "education"
+  },
+  {
+    "sentence": "add 3100 rs for earphones",
+    "amount": 3100,
+    "item": "earphones",
+    "category": "shopping"
+  },
+  {
+    "sentence": "I spent 3580 rs for photo frame",
+    "amount": 3580,
+    "item": "photo frame",
+    "category": "shopping"
+  },
+  {
+    "sentence": "spent 3450 bucks on online course",
+    "amount": 3450,
+    "item": "online course",
+    "category": "education"
+  },
+  {
+    "sentence": "log expense of 2810 for health checkup",
+    "amount": 2810,
+    "item": "health checkup",
+    "category": "health"
+  },
+  {
+    "sentence": "add workshop fee expense of Rs 1840",
+    "amount": 1840,
+    "item": "workshop fee",
+    "category": "education"
+  },
+  {
+    "sentence": "I spent 2320 for blood test",
+    "amount": 2320,
+    "item": "blood test",
+    "category": "health"
+  },
+  {
+    "sentence": "got flour for 510",
+    "amount": 510,
+    "item": "flour",
+    "category": "groceries"
+  },
+  {
+    "sentence": "just spent 1400 rupees on flour",
+    "amount": 1400,
+    "item": "flour",
+    "category": "groceries"
+  },
+  {
+    "sentence": "I paid 1930 rupees on gaming",
+    "amount": 1930,
+    "item": "gaming",
+    "category": "entertainment"
+  },
+  {
+    "sentence": "picked up metro card for 1290 rupees",
+    "amount": 1290,
+    "item": "metro card",
+    "category": "transport"
+  },
+  {
+    "sentence": "got dry fruits for Rs 300",
+    "amount": 300,
+    "item": "dry fruits",
+    "category": "groceries"
+  },
+  {
+    "sentence": "sugar cost me 590 rs",
+    "amount": 590,
+    "item": "sugar",
+    "category": "groceries"
+  },
+  {
+    "sentence": "paid 1970 rs for poha",
+    "amount": 1970,
+    "item": "poha",
+    "category": "groceries"
+  },
+  {
+    "sentence": "spent 730 rs on rice",
+    "amount": 730,
+    "item": "rice",
+    "category": "food"
+  },
+  {
+    "sentence": "add bedsheet expense of 230 bucks",
+    "amount": 230,
+    "item": "bedsheet",
+    "category": "shopping"
+  },
+  {
+    "sentence": "add expense of ₹160 for onions",
+    "amount": 160,
+    "item": "onions",
+    "category": "groceries"
+  },
+  {
+    "sentence": "used 820 rupees for first aid kit",
+    "amount": 820,
+    "item": "first aid kit",
+    "category": "health"
+  },
+  {
+    "sentence": "I bought fuel for Rs 330",
+    "amount": 330,
+    "item": "fuel",
+    "category": "transport"
+  },
+  {
+    "sentence": "vitamin tablets cost me Rs 2800",
+    "amount": 2800,
+    "item": "vitamin tablets",
+    "category": "health"
+  },
+  {
+    "sentence": "record 1690 bucks spent on coaching class",
+    "amount": 1690,
+    "item": "coaching class",
+    "category": "education"
+  },
+  {
+    "sentence": "track ₹260 for chaat",
+    "amount": 260,
+    "item": "chaat",
+    "category": "food"
+  }
+]

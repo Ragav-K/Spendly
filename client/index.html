@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spendly — AI Expense Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ═══ AUTH OVERLAY ═══ -->
+  <div id="authOverlay" class="auth-overlay active">
+    <div class="auth-card">
+      <div class="auth-logo"><span>Spendly</span></div>
+      <h2 id="authTitle">Welcome Back</h2>
+      <p id="authSub">Sign in to sync your expenses securely.</p>
+
+      <div id="authFormEmail" class="auth-form">
+        <input type="text" id="authName" class="auth-input signup-only" placeholder="Full Name" style="display:none;">
+        <input type="email" id="authEmail" class="auth-input" placeholder="Email Address">
+        <input type="password" id="authPassword" class="auth-input" placeholder="Password">
+        <input type="password" id="authConfirmPassword" class="auth-input signup-only" placeholder="Confirm Password" style="display:none;">
+        <div id="authErrorEmail" class="auth-error"></div>
+        <button id="authSendCodeBtn" class="auth-btn" onclick="handleSendCode()">Sign In</button>
+        
+        <div class="auth-toggle">
+          <span id="authToggleText">Don't have an account? </span>
+          <button onclick="toggleAuthMode()" id="authToggleBtn">Sign Up</button>
+        </div>
+      </div>
+
+      <!-- OTP VERIFICATION FORM -->
+      <div id="authFormOTP" class="auth-form" style="display:none;">
+        <div style="font-size:40px;margin-bottom:10px;text-align:center;">✉️</div>
+        <h3 style="margin-bottom:8px;text-align:center;">Verify Your Email</h3>
+        <p id="otpSubtitle" style="color:var(--muted);font-size:14px;line-height:1.5;text-align:center;margin-bottom:16px;">We sent a 6-digit code to your email.</p>
+        
+        <input type="text" id="authOTP" class="auth-input" placeholder="Enter 6-digit Code" maxlength="6" style="letter-spacing: 4px; text-align: center; font-size: 20px;">
+        <div id="authErrorOTP" class="auth-error"></div>
+        
+        <button id="authVerifyBtn" class="auth-btn" onclick="handleVerifyOTP()">Verify Code</button>
+        <button class="auth-btn" onclick="resetAuthForm()" style="background:transparent;border:1px solid var(--border);color:var(--muted);margin-top:8px;">Go Back</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main App Wrapper (Hidden until logged in) -->
+  <div id="appWrapper" style="display: none;">
+
+  <!-- ═══ NAV ═══ -->
+  <nav id="topnav">
+    <div class="nav-logo"><span>Spendly</span></div>
+    <div class="nav-links">
+      <button class="nav-link active" onclick="showPage('home')">Home</button>
+      <button class="nav-link" onclick="showPage('add')">Add Expense</button>
+      <button class="nav-link" onclick="showPage('dashboard')">Dashboard</button>
+      <button class="nav-link" onclick="showPage('history')">History</button>
+      <button class="nav-link" onclick="showPage('about')">About</button>
+    </div>
+    <button class="hamburger" onclick="toggleMobileNav()" aria-label="Menu">☰</button>
+    <button class="nav-cta" onclick="showPage('add')">🎤 Record Now</button>
+  </nav>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-overlay" id="mobileNav">
+    <button class="mob-link" onclick="showPage('home');closeMobileNav()">🏠 Home</button>
+    <button class="mob-link" onclick="showPage('add');closeMobileNav()">🎤 Add Expense</button>
+    <button class="mob-link" onclick="showPage('dashboard');closeMobileNav()">📊 Dashboard</button>
+    <button class="mob-link" onclick="showPage('history');closeMobileNav()">📋 History</button>
+    <button class="mob-link" onclick="showPage('about');closeMobileNav()">📖 About</button>
+  </div>
+
+  <!-- ═══ HOME PAGE ═══ -->
+  <div id="page-home" class="page active">
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-eyebrow">🤖 AI + NLP + Voice Recognition</div>
+      <h1 class="hero-title">
+        <span class="line1">Track Every Rupee</span>
+        <span class="line2">Just by Speaking</span>
+      </h1>
+      <p class="hero-sub">
+        Spendly uses advanced AI to understand your natural voice commands
+        and automatically extract expense details — no forms, no friction.
+      </p>
+      <div class="hero-btns">
+        <button class="btn-primary" onclick="showPage('add')">🎤 Start Tracking</button>
+        <button class="btn-secondary" onclick="showPage('dashboard')">📊 View Dashboard</button>
+      </div>
+      <div class="hero-mic-wrap">
+        <div class="hero-mic-orb" onclick="handleHeroMicClick()" style="cursor:pointer">🎙️</div>
+        <div class="waveform">
+          <div class="waveform-bar"></div>
+          <div class="waveform-bar"></div>
+          <div class="waveform-bar"></div>
+          <div class="waveform-bar"></div>
+          <div class="waveform-bar"></div>
+          <div class="waveform-bar"></div>
+          <div class="waveform-bar"></div>
+          <div class="waveform-bar"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="section-label">Core Features</div>
+      <h2 class="section-title">Everything you need,<br>nothing you don't</h2>
+      <p class="section-sub">An end-to-end AI pipeline from voice to analytics — built for real-world use.</p>
+      <div class="features-grid">
+        <div class="feat-card" style="--accent-c:#6ee7ff">
+          <div class="feat-icon">🎤</div>
+          <div class="feat-title">Voice Input</div>
+          <div class="feat-desc">Speak naturally in English (or type). The system handles conversational phrasing like
+            "spent 50 rupees on coffee."</div>
+        </div>
+        <div class="feat-card" style="--accent-c:#a78bfa">
+          <div class="feat-icon">🧠</div>
+          <div class="feat-title">AI NLP Parser</div>
+          <div class="feat-desc">Claude AI extracts amount, item, and category from raw text using Named Entity
+            Recognition and intent classification.</div>
+        </div>
+        <div class="feat-card" style="--accent-c:#7fff8c">
+          <div class="feat-icon">📊</div>
+          <div class="feat-title">Live Dashboard</div>
+          <div class="feat-desc">Real-time charts showing daily totals, category breakdown, monthly trends, and spending
+            patterns.</div>
+        </div>
+        <div class="feat-card" style="--accent-c:#ffd166">
+          <div class="feat-icon">🗂️</div>
+          <div class="feat-title">Smart Categories</div>
+          <div class="feat-desc">Automatic classification into Food, Transport, Shopping, Bills, Entertainment, Health
+            and more.</div>
+        </div>
+        <div class="feat-card" style="--accent-c:#f472b6">
+          <div class="feat-icon">💾</div>
+          <div class="feat-title">Persistent Storage</div>
+          <div class="feat-desc">All expenses are saved locally and persist across sessions — your data is always there
+            when you need it.</div>
+        </div>
+        <div class="feat-card" style="--accent-c:#4ecdc4">
+          <div class="feat-icon">🔍</div>
+          <div class="feat-title">Search & Filter</div>
+          <div class="feat-desc">Browse your full expense history, search by keyword, and filter by category with
+            instant results.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pipeline">
+      <div class="section-label">AI Pipeline</div>
+      <h2 class="section-title" style="margin-bottom:12px">How It Works</h2>
+      <p class="section-sub">Five-step intelligent processing pipeline</p>
+      <div class="pipeline-steps">
+        <div class="pipeline-step">
+          <div class="step-left">
+            <div class="step-num">01</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <div class="step-title">Voice / Text Input</div>
+            <div class="step-desc">User speaks into microphone or types a natural language command. Web Speech API
+              transcribes audio in real-time.</div>
+            <span class="step-tag">Web Speech API · WebRTC</span>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="step-left">
+            <div class="step-num">02</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <div class="step-title">Speech Recognition</div>
+            <div class="step-desc">Raw audio is converted to text. In a production system, OpenAI Whisper provides
+              industry-leading accuracy across accents.</div>
+            <span class="step-tag">Whisper / Web Speech API</span>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="step-left">
+            <div class="step-num">03</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <div class="step-title">NLP Entity Extraction</div>
+            <div class="step-desc">Claude AI uses Named Entity Recognition to extract amount, item name, and semantic
+              context from the transcript.</div>
+            <span class="step-tag">Claude AI · NER · spaCy</span>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="step-left">
+            <div class="step-num">04</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <div class="step-title">Category Classification</div>
+            <div class="step-desc">ML classifier maps extracted items to expense categories using trained intent
+              detection and rule-based fallback.</div>
+            <span class="step-tag">scikit-learn · Intent Classification</span>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="step-left">
+            <div class="step-num">05</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <div class="step-title">Storage & Visualization</div>
+            <div class="step-desc">Structured expense is stored in the database. Dashboard charts update automatically
+              with the new data point.</div>
+            <span class="step-tag">SQLite · Chart.js · FastAPI</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cats-row">
+      <div class="cat-pill" style="--pill-color:#ff8c69">
+        <div class="cat-dot"></div>🍽️ Food
+      </div>
+      <div class="cat-pill" style="--pill-color:#4ecdc4">
+        <div class="cat-dot"></div>🚗 Transport
+      </div>
+      <div class="cat-pill" style="--pill-color:#c084fc">
+        <div class="cat-dot"></div>🛍️ Shopping
+      </div>
+      <div class="cat-pill" style="--pill-color:#fbbf24">
+        <div class="cat-dot"></div>⚡ Bills
+      </div>
+      <div class="cat-pill" style="--pill-color:#f472b6">
+        <div class="cat-dot"></div>🎬 Entertainment
+      </div>
+      <div class="cat-pill" style="--pill-color:#34d399">
+        <div class="cat-dot"></div>💊 Health
+      </div>
+      <div class="cat-pill" style="--pill-color:#22c55e">
+        <div class="cat-dot"></div>🥬 Groceries
+      </div>
+      <div class="cat-pill" style="--pill-color:#818cf8">
+        <div class="cat-dot"></div>📚 Education
+      </div>
+      <div class="cat-pill" style="--pill-color:#94a3b8">
+        <div class="cat-dot"></div>📦 Others
+      </div>
+    </div>
+
+    <footer>
+      <div style="margin-bottom:8px">Spendly — AI-Powered Expense Tracker &nbsp;·&nbsp; AIML Project</div>
+      <div style="opacity:.5">Built with Claude AI · Web Speech API · Chart.js</div>
+    </footer>
+  </div>
+
+  <!-- ═══ ADD EXPENSE PAGE ═══ -->
+  <div id="page-add" class="page">
+    <div class="add-container">
+      <div class="page-header">
+        <div class="page-eyebrow">🎤 Voice Input</div>
+        <h1 class="page-title">Add an Expense</h1>
+        <p class="page-sub">Speak naturally or type your expense. AI will extract amount, item and category
+          automatically.</p>
+      </div>
+
+      <div class="recorder-card" id="recorderCard">
+        <div class="mic-ring-wrap">
+          <div class="mic-ring" id="ring1"></div>
+          <div class="mic-ring" id="ring2"></div>
+          <button class="mic-btn idle" id="micBtn" onclick="toggleRecording()">🎙️</button>
+        </div>
+        <div class="mic-status" id="micStatus">TAP TO RECORD</div>
+        <div class="transcript-box empty" id="transcriptBox">Your speech will appear here…</div>
+        <div id="processingIndicator" style="display:none" class="processing-indicator">
+          <div class="spinner"></div> AI is parsing your expense…
+        </div>
+        <div id="recBtnWrap">
+          <button class="add-btn" id="submitVoiceBtn" style="display:none;margin:0 auto;" onclick="submitTranscript()">
+            ✓ Add This Expense
+          </button>
+        </div>
+      </div>
+
+      <div class="divider">OR TYPE IT</div>
+
+      <div class="input-row">
+        <input type="text" class="text-input" id="manualInput" placeholder='e.g. "Spent 120 rupees for pizza"'
+          onkeydown="if(event.key==='Enter') submitManual()" />
+        <button class="add-btn" id="manualBtn" onclick="submitManual()">Add →</button>
+      </div>
+
+      <div id="successCard" style="display:none"></div>
+
+      <div class="examples-section">
+        <div class="examples-label">Try these examples</div>
+        <div class="examples-wrap" id="examplesWrap">
+          <button class="example-chip" onclick="setExample(this)">Spent 500 for petrol using card</button>
+          <button class="example-chip" onclick="setExample(this)">Dinner for 1200 via UPI</button>
+          <button class="example-chip" onclick="setExample(this)">Paid 300 for movie through GPay</button>
+          <button class="example-chip" onclick="setExample(this)">Bought milk for 50 in cash</button>
+          <button class="example-chip" onclick="setExample(this)">Electricity bill 1500 by credit card</button>
+          <button class="example-chip" onclick="setExample(this)">Taxi fare 250 in cash</button>
+          <button class="example-chip" onclick="setExample(this)">Amazon shopping 2000 using card</button>
+          <button class="example-chip" onclick="setExample(this)">Tea for 20 via GPay</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ DASHBOARD PAGE ═══ -->
+  <div id="page-dashboard" class="page">
+    <div class="dash-container">
+      <div class="page-header">
+        <div class="page-eyebrow">📊 Analytics</div>
+        <h1 class="page-title">Dashboard</h1>
+        <p class="page-sub">Your spending at a glance — updated in real time as you add expenses.</p>
+        <button class="export-btn" onclick="exportCSV()" style="margin-top:12px">📥 Export CSV</button>
+      </div>
+
+      <div class="stats-grid" id="statsGrid"></div>
+
+      <div class="charts-grid">
+        <div class="chart-card">
+          <div class="chart-title">
+            <div class="chart-title-dot" style="background:#ff8c69"></div>Category Breakdown
+          </div>
+          <div class="chart-wrap"><canvas id="pieChart"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">
+            <div class="chart-title-dot" style="background:#6ee7ff"></div>Daily Spending (7 Days)
+          </div>
+          <div class="chart-wrap"><canvas id="barChart"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">
+            <div class="chart-title-dot" style="background:#a78bfa"></div>Payment Method
+          </div>
+          <div class="chart-wrap"><canvas id="paymentChart"></canvas></div>
+        </div>
+      </div>
+
+      <div class="chart-card" style="margin-bottom:24px">
+        <div class="chart-title">
+          <div class="chart-title-dot" style="background:#ffd166"></div>Monthly Trend
+        </div>
+        <div class="chart-wrap"><canvas id="lineChart"></canvas></div>
+      </div>
+
+      <div class="chart-card" style="margin-bottom:24px">
+        <div class="chart-title">
+          <div class="chart-title-dot" style="background:#a78bfa"></div>Spending by Category
+        </div>
+        <div id="catBarsContainer"></div>
+      </div>
+
+      <div class="txn-card">
+        <div class="chart-title">
+          <div class="chart-title-dot" style="background:#7fff8c"></div>Recent Transactions
+        </div>
+        <div id="recentTxns"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ HISTORY PAGE ═══ -->
+  <div id="page-history" class="page">
+    <div class="hist-container">
+      <div class="page-header">
+        <div class="page-eyebrow">📋 Full History</div>
+        <h1 class="page-title">Expense History</h1>
+        <p class="page-sub">Browse, search, and filter all your recorded expenses.</p>
+      </div>
+
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="text" class="search-input" id="searchInput" placeholder="Search expenses…"
+          oninput="renderHistory()" />
+      </div>
+
+      <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-cat="All" onclick="setFilter(this)">All</button>
+        <button class="filter-btn" data-cat="Food" onclick="setFilter(this)">🍽️ Food</button>
+        <button class="filter-btn" data-cat="Transport" onclick="setFilter(this)">🚗 Transport</button>
+        <button class="filter-btn" data-cat="Shopping" onclick="setFilter(this)">🛍️ Shopping</button>
+        <button class="filter-btn" data-cat="Bills" onclick="setFilter(this)">⚡ Bills</button>
+        <button class="filter-btn" data-cat="Entertainment" onclick="setFilter(this)">🎬 Entertainment</button>
+        <button class="filter-btn" data-cat="Health" onclick="setFilter(this)">💊 Health</button>
+        <button class="filter-btn" data-cat="Groceries" onclick="setFilter(this)">🥬 Groceries</button>
+        <button class="filter-btn" data-cat="Education" onclick="setFilter(this)">📚 Education</button>
+        <button class="filter-btn" data-cat="Others" onclick="setFilter(this)">📦 Others</button>
+      </div>
+
+      <div id="historyList"></div>
+    </div>
+  </div>
+
+  <!-- ═══ ABOUT PAGE ═══ -->
+  <div id="page-about" class="page">
+    <div class="about-container">
+      <div class="page-header">
+        <div class="page-eyebrow">📖 Project Info</div>
+        <h1 class="page-title">About Spendly</h1>
+        <p class="page-sub">A complete AIML submission project demonstrating voice interfaces, NLP, and ML
+          classification.</p>
+      </div>
+
+      <div class="about-section">
+        <h2>Project Overview</h2>
+        <p>Spendly is an AI-powered expense tracking system where users record daily expenses using natural voice
+          commands instead of manually entering data. The system converts spoken input into text, extracts important
+          information (amount, category, item), and stores it in a database.</p>
+        <p>This project demonstrates the complete integration of Speech Recognition, Natural Language Processing,
+          Machine Learning classification, and real-time data visualization in a single cohesive application.</p>
+      </div>
+
+      <div class="about-section">
+        <h2>AI/ML Technologies</h2>
+        <div class="tech-grid">
+          <div class="tech-card">
+            <div class="tech-name">OpenAI Whisper</div>
+            <div class="tech-role">Production-grade speech-to-text with multilingual support and noise robustness.</div>
+            <span class="tech-badge">Speech Recognition</span>
+          </div>
+          <div class="tech-card">
+            <div class="tech-name">Claude AI</div>
+            <div class="tech-role">NLP entity extraction for amount, item and category from natural language text.</div>
+            <span class="tech-badge">NLP · NER</span>
+          </div>
+          <div class="tech-card">
+            <div class="tech-name">spaCy / NLTK</div>
+            <div class="tech-role">Named Entity Recognition and tokenization for structured data extraction pipeline.
+            </div>
+            <span class="tech-badge">NER · Tokenization</span>
+          </div>
+          <div class="tech-card">
+            <div class="tech-name">scikit-learn</div>
+            <div class="tech-role">ML classifier trained on expense sentences for automatic category prediction.</div>
+            <span class="tech-badge">ML Classification</span>
+          </div>
+          <div class="tech-card">
+            <div class="tech-name">FastAPI</div>
+            <div class="tech-role">Python backend serving the AI pipeline with async REST endpoints.</div>
+            <span class="tech-badge">Backend · Python</span>
+          </div>
+          <div class="tech-card">
+            <div class="tech-name">SQLite / MongoDB</div>
+            <div class="tech-role">Persistent expense storage with structured schema for fast querying.</div>
+            <span class="tech-badge">Database</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-section">
+        <h2>AI Concepts Demonstrated</h2>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px">
+          <span
+            style="background:rgba(110,231,255,.1);color:var(--accent);border:1px solid rgba(110,231,255,.2);border-radius:8px;padding:8px 16px;font-size:13px;font-weight:600">🎤
+            Speech Recognition</span>
+          <span
+            style="background:rgba(167,139,250,.1);color:var(--purple);border:1px solid rgba(167,139,250,.2);border-radius:8px;padding:8px 16px;font-size:13px;font-weight:600">🧠
+            NLP Processing</span>
+          <span
+            style="background:rgba(127,255,140,.1);color:var(--accent3);border:1px solid rgba(127,255,140,.2);border-radius:8px;padding:8px 16px;font-size:13px;font-weight:600">🏷️
+            Named Entity Recognition</span>
+          <span
+            style="background:rgba(255,209,102,.1);color:var(--gold);border:1px solid rgba(255,209,102,.2);border-radius:8px;padding:8px 16px;font-size:13px;font-weight:600">🔖
+            Text Classification</span>
+          <span
+            style="background:rgba(244,114,182,.1);color:#f472b6;border:1px solid rgba(244,114,182,.2);border-radius:8px;padding:8px 16px;font-size:13px;font-weight:600">🤖
+            ML Pipeline</span>
+          <span
+            style="background:rgba(78,205,196,.1);color:var(--cat-transport);border:1px solid rgba(78,205,196,.2);border-radius:8px;padding:8px 16px;font-size:13px;font-weight:600">🎙️
+            Voice Interface</span>
+        </div>
+      </div>
+
+      <div class="about-section">
+        <h2>Sample Extracted Record</h2>
+        <div class="code-block">
+          <span class="key">{</span><br>
+          &nbsp;&nbsp;<span class="key">"id"</span>: <span class="val">1001</span>,<br>
+          &nbsp;&nbsp;<span class="key">"voice_text"</span>: <span class="str">"Spent 120 rupees for pizza"</span>,<br>
+          &nbsp;&nbsp;<span class="key">"amount"</span>: <span class="val">120</span>,<br>
+          &nbsp;&nbsp;<span class="key">"item"</span>: <span class="str">"Pizza"</span>,<br>
+          &nbsp;&nbsp;<span class="key">"category"</span>: <span class="str">"Food"</span>,<br>
+          &nbsp;&nbsp;<span class="key">"date"</span>: <span class="str">"2026-03-11"</span>,<br>
+          &nbsp;&nbsp;<span class="key">"confidence"</span>: <span class="val">0.97</span><br>
+          <span class="key">}</span>
+        </div>
+      </div>
+
+      <div class="about-section">
+        <h2>Project Structure</h2>
+        <div class="code-block">
+          voice-expense-tracker/<br>
+          ├── <span class="key">dataset/</span><br>
+          │&nbsp;&nbsp; └── expense_voice_dataset.csv<br>
+          ├── <span class="key">models/</span><br>
+          │&nbsp;&nbsp; └── expense_classifier.pkl<br>
+          ├── <span class="key">backend/</span><br>
+          │&nbsp;&nbsp; ├── app.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="val">←
+            FastAPI server</span><br>
+          │&nbsp;&nbsp; ├── speech_to_text.py <span class="val">← Whisper integration</span><br>
+          │&nbsp;&nbsp; ├── nlp_parser.py &nbsp;&nbsp;&nbsp;&nbsp;<span class="val">← Entity extraction</span><br>
+          │&nbsp;&nbsp; ├── classifier.py &nbsp;&nbsp;&nbsp;&nbsp;<span class="val">← ML category model</span><br>
+          │&nbsp;&nbsp; └── database.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="val">←
+            SQLite/MongoDB</span><br>
+          ├── <span class="key">frontend/</span><br>
+          │&nbsp;&nbsp; └── dashboard.py &nbsp;&nbsp;&nbsp;&nbsp;<span class="val">← This UI</span><br>
+          ├── <span class="key">utils/</span><br>
+          │&nbsp;&nbsp; └── category_rules.py<br>
+          └── requirements.txt
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ JAVASCRIPT ═══ -->
+  <script type="module" src="app.js"></script>
+  </div> <!-- End App Wrapper -->
+</body>
+
+</html>
