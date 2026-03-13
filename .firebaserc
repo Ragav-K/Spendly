@@ -1,5 +1,7 @@
 {
   "projects": {
     "default": "spendly-money"
-  }
+  },
+  "targets": {},
+  "etags": {}
 }
