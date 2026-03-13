@@ -2,15 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebas
     import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut, sendEmailVerification, updateProfile } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
     import { getFirestore, collection, addDoc, deleteDoc, doc, onSnapshot, query, orderBy } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
 
-    const firebaseConfig = {
-      apiKey: "AIzaSyCqqhkX7q4DpOqj2dua67_jUAe1REY7IAc",
-      authDomain: "spendly-money.firebaseapp.com",
-      projectId: "spendly-money",
-      storageBucket: "spendly-money.firebasestorage.app",
-      messagingSenderId: "1026371553913",
-      appId: "1:1026371553913:web:f616e73f74e178494662a8",
-      measurementId: "G-HKNCY3MNT7"
-    };
+import { firebaseConfig } from './firebase-config.js';
 
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);

@@ -5,3 +5,4 @@ server/serviceAccountKey.json
 server/otpStore.json
 dist/
 *.log
+client/firebase-config.js
