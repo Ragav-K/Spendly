@@ -12,7 +12,7 @@ import { firebaseConfig } from './firebase-config.js';
     // PRODUCTION CONFIG
     const BACKEND_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
       ? 'http://localhost:3000' 
-      : 'https://spendly-backend.onrender.com'; // Replace with your actual Render URL after deployment
+      : 'https://spendly-jy23.onrender.com';
 
 
     // Global variable for current user
