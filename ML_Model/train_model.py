@@ -1,241 +1,146 @@
-"""
-VoiceSpend — ML Expense Classifier Training Pipeline
-=====================================================
-Trains a TF-IDF + Multinomial Naive Bayes classifier on the voice expense dataset.
-Exports model weights to JSON for browser-side inference.
-
-AI/ML Concepts Demonstrated:
-- Text Preprocessing & Tokenization
-- TF-IDF Vectorization (Term Frequency–Inverse Document Frequency)
-- Multinomial Naive Bayes Classification
-- Train/Test Split & Cross-Validation
-- Model Evaluation (Accuracy, Classification Report, Confusion Matrix)
-- Model Serialization (pickle + JSON export for browser)
-
-Usage:
-    python train_model.py
-"""
-
-import json
-import pickle
-import re
-import sys
-import io
+import json, pickle, re
 import numpy as np
-
-# Fix Windows console encoding
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.model_selection import train_test_split, cross_val_score
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
+from collections import Counter
 
+DATASET_PATH = 'voice_expense_dataset.json'
+CATEGORIES = ["food","transport","shopping","bills","entertainment","health","groceries","education"]
 
-# ─── CONFIG ───
-DATASET_PATH = "voice_expense_dataset.json"
-MODEL_PATH = "expense_classifier.pkl"
-WEIGHTS_PATH = "ml_model_weights.json"
-CATEGORIES = ["food", "transport", "shopping", "bills", "entertainment", "health", "groceries", "education"]
+with open(DATASET_PATH, 'r', encoding='utf-8') as f:
+    data = json.load(f)
 
+print(f"Total entries: {len(data)}")
 
-def load_dataset(path):
-    """Load and preprocess the voice expense dataset."""
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
+sentences  = [d['sentence'] for d in data]
+categories = [d['category'] for d in data]
+pay_labels = [d['payment_method'] if d['payment_method'] else 'Unknown' for d in data]
 
-    sentences = []
-    labels = []
-    for entry in data:
-        sentence = entry["sentence"].strip()
-        category = entry["category"].strip().lower()
-        if category in CATEGORIES:
-            sentences.append(sentence)
-            labels.append(category)
-
-    print(f"✓ Loaded {len(sentences)} samples across {len(set(labels))} categories")
-    return sentences, labels
-
-
-def preprocess_text(text):
-    """Clean and normalize text for better feature extraction."""
+def preprocess(text):
     text = text.lower()
-    # Remove currency symbols and numbers (we only classify category, not extract amount)
     text = re.sub(r'[₹$]', '', text)
     text = re.sub(r'\b\d+[\d,]*\.?\d*\b', ' NUM ', text)
-    # Remove extra whitespace
-    text = re.sub(r'\s+', ' ', text).strip()
-    return text
+    return re.sub(r'\s+', ' ', text).strip()
 
+processed = [preprocess(s) for s in sentences]
 
-def train_model(sentences, labels):
-    """Train TF-IDF + Multinomial Naive Bayes pipeline."""
-    # Preprocess all sentences
-    processed = [preprocess_text(s) for s in sentences]
+# ── CATEGORY MODEL (unchanged architecture) ──────────────────────────
+print("\n=== Category Classifier ===")
+X_tr, X_te, y_tr, y_te = train_test_split(processed, categories, test_size=0.2, random_state=42, stratify=categories)
 
-    # Split dataset
-    X_train, X_test, y_train, y_test = train_test_split(
-        processed, labels, test_size=0.2, random_state=42, stratify=labels
-    )
-    print(f"✓ Train: {len(X_train)} samples | Test: {len(X_test)} samples")
+cat_pipe = Pipeline([
+    ('tfidf', TfidfVectorizer(max_features=2000, ngram_range=(1,2), min_df=2, max_df=0.95, sublinear_tf=True, strip_accents='unicode')),
+    ('clf',   MultinomialNB(alpha=0.1))
+])
+cat_pipe.fit(X_tr, y_tr)
+y_pred = cat_pipe.predict(X_te)
+print(f"Test Accuracy : {accuracy_score(y_te, y_pred):.4f}")
+cv = cross_val_score(cat_pipe, processed, categories, cv=5)
+print(f"CV  Accuracy  : {cv.mean():.4f} ±{cv.std():.4f}")
+print(classification_report(y_te, y_pred, zero_division=0))
 
-    # Build pipeline
-    pipeline = Pipeline([
-        ('tfidf', TfidfVectorizer(
-            max_features=2000,
-            ngram_range=(1, 2),      # Unigrams + Bigrams
-            min_df=2,                 # Minimum document frequency
-            max_df=0.95,              # Maximum document frequency
-            sublinear_tf=True,        # Apply sublinear TF scaling
-            strip_accents='unicode',
-        )),
-        ('clf', MultinomialNB(alpha=0.1))  # Laplace smoothing
-    ])
+# ── PAYMENT METHOD MODEL ──────────────────────────────────────────────
+print("\n=== Payment Method Classifier ===")
+# Only train on entries that HAVE a payment method label
+pm_mask = [i for i,d in enumerate(data) if d['payment_method'] is not None]
+pm_sents = [processed[i] for i in pm_mask]
+pm_labs   = [pay_labels[i] for i in pm_mask]
 
-    # Train
-    pipeline.fit(X_train, y_train)
+print("Label distribution:", Counter(pm_labs))
 
-    # Evaluate
-    y_pred = pipeline.predict(X_test)
-    accuracy = accuracy_score(y_test, y_pred)
-    print(f"\n{'='*50}")
-    print(f"  TEST ACCURACY: {accuracy:.4f} ({accuracy*100:.1f}%)")
-    print(f"{'='*50}\n")
+X_tr2, X_te2, y_tr2, y_te2 = train_test_split(pm_sents, pm_labs, test_size=0.2, random_state=42, stratify=pm_labs)
 
-    # Cross-validation
-    cv_scores = cross_val_score(pipeline, processed, labels, cv=5, scoring='accuracy')
-    print(f"✓ 5-Fold Cross-Validation: {cv_scores.mean():.4f} (±{cv_scores.std():.4f})")
-    print(f"  Fold scores: {[f'{s:.3f}' for s in cv_scores]}\n")
+pm_pipe = Pipeline([
+    ('tfidf', TfidfVectorizer(max_features=3000, ngram_range=(1,3), min_df=1, sublinear_tf=True, strip_accents='unicode')),
+    ('clf',   LogisticRegression(max_iter=500, C=5.0))
+])
+pm_pipe.fit(X_tr2, y_tr2)
+y_pred2 = pm_pipe.predict(X_te2)
+print(f"Test Accuracy : {accuracy_score(y_te2, y_pred2):.4f}")
+cv2 = cross_val_score(pm_pipe, pm_sents, pm_labs, cv=5)
+print(f"CV  Accuracy  : {cv2.mean():.4f} ±{cv2.std():.4f}")
+print(classification_report(y_te2, y_pred2, zero_division=0))
 
-    # Classification Report
-    print("Classification Report:")
-    print(classification_report(y_test, y_pred, zero_division=0))
+# ── EXPORT JSON WEIGHTS (browser-compatible) ─────────────────────────
+def export_weights(cat_pipeline, pm_pipeline, out_path):
+    # Category model weights
+    tfidf_cat = cat_pipeline.named_steps['tfidf']
+    clf_cat   = cat_pipeline.named_steps['clf']
 
-    # Confusion Matrix
-    labels_unique = sorted(set(labels))
-    cm = confusion_matrix(y_test, y_pred, labels=labels_unique)
-    print("Confusion Matrix:")
-    print(f"{'':>15}", "  ".join(f"{l[:5]:>5}" for l in labels_unique))
-    for i, row in enumerate(cm):
-        print(f"{labels_unique[i]:>15}", "  ".join(f"{v:>5}" for v in row))
-    print()
-
-    return pipeline, accuracy
-
-
-def export_model_weights(pipeline, output_path):
-    """
-    Export the trained model's weights to JSON for browser-side inference.
-
-    Exports:
-    - TF-IDF vocabulary (word → index mapping)
-    - IDF weights (inverse document frequency for each term)
-    - Naive Bayes log probabilities (class priors + feature log probabilities)
-    - Category labels
-    """
-    tfidf = pipeline.named_steps['tfidf']
-    clf = pipeline.named_steps['clf']
-
-    # Extract TF-IDF components
-    vocab = {k: int(v) for k, v in tfidf.vocabulary_.items()}  # word → index (convert np.int64)
-    idf = [float(x) for x in tfidf.idf_]  # IDF weights
-
-    # Extract Naive Bayes components
-    class_log_prior = clf.class_log_prior_.tolist()   # log P(class)
-    feature_log_prob = clf.feature_log_prob_.tolist()  # log P(word|class)
-    classes = clf.classes_.tolist()                     # category labels
+    # Payment model weights
+    tfidf_pm  = pm_pipeline.named_steps['tfidf']
+    clf_pm    = pm_pipeline.named_steps['clf']
 
     model_data = {
-        "model_type": "TF-IDF + Multinomial Naive Bayes",
-        "vocabulary": vocab,
-        "idf": idf,
-        "classes": classes,
-        "class_log_prior": class_log_prior,
-        "feature_log_prob": feature_log_prob,
-        "tfidf_params": {
-            "max_features": tfidf.max_features,
-            "ngram_range": list(tfidf.ngram_range),
-            "sublinear_tf": tfidf.sublinear_tf,
-        }
+        # ── Category model (existing structure, unchanged) ──
+        "model_type"      : "TF-IDF + Multinomial Naive Bayes",
+        "vocabulary"      : {k: int(v) for k, v in tfidf_cat.vocabulary_.items()},
+        "idf"             : [float(x) for x in tfidf_cat.idf_],
+        "classes"         : clf_cat.classes_.tolist(),
+        "class_log_prior" : clf_cat.class_log_prior_.tolist(),
+        "feature_log_prob": clf_cat.feature_log_prob_.tolist(),
+        "tfidf_params"    : {
+            "max_features": tfidf_cat.max_features,
+            "ngram_range" : list(tfidf_cat.ngram_range),
+            "sublinear_tf": tfidf_cat.sublinear_tf,
+        },
+        # ── Payment method model (new) ──
+        "pm_model_type"      : "TF-IDF + Logistic Regression",
+        "pm_vocabulary"      : {k: int(v) for k, v in tfidf_pm.vocabulary_.items()},
+        "pm_idf"             : [float(x) for x in tfidf_pm.idf_],
+        "pm_classes"         : clf_pm.classes_.tolist(),
+        "pm_coef"            : clf_pm.coef_.tolist(),
+        "pm_intercept"       : clf_pm.intercept_.tolist(),
+        "pm_tfidf_params"    : {
+            "max_features": tfidf_pm.max_features,
+            "ngram_range" : list(tfidf_pm.ngram_range),
+            "sublinear_tf": tfidf_pm.sublinear_tf,
+        },
     }
 
-    with open(output_path, "w", encoding="utf-8") as f:
+    with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(model_data, f)
 
     size_kb = len(json.dumps(model_data)) / 1024
-    print(f"✓ Model weights exported to {output_path} ({size_kb:.0f} KB)")
-    print(f"  Vocabulary size: {len(vocab)} terms")
-    print(f"  Classes: {classes}")
-
+    print(f"\n✅ Weights exported → {out_path}  ({size_kb:.0f} KB)")
+    print(f"   Category vocab  : {len(model_data['vocabulary'])} terms | classes: {model_data['classes']}")
+    print(f"   Payment vocab   : {len(model_data['pm_vocabulary'])} terms | classes: {model_data['pm_classes']}")
     return model_data
 
+weights = export_weights(cat_pipe, pm_pipe, '/home/claude/ml_model_weights_v2.json')
 
-def test_predictions(pipeline):
-    """Test the model with example sentences."""
-    test_cases = [
-        "Spent 50 rupees for chocolate",
-        "Paid 250 for petrol",
-        "Electricity bill 1200",
-        "Movie ticket 300",
-        "Bought vegetables for 800 rupees",
-        "Online course subscription 500",
-        "Bought shirt for 1000",
-        "Gym membership 2000",
-        "Taxi fare was 150 rupees",
-        "Bought rice and dal for 400",
-    ]
+# ── SAVE PICKLE ───────────────────────────────────────────────────────
+with open('expense_classifier.pkl', 'wb') as f:
+    pickle.dump({'category': cat_pipe, 'payment': pm_pipe}, f)
+print("✅ Pickle saved → expense_models_v2.pkl")
 
-    print("\n" + "="*60)
-    print("  SAMPLE PREDICTIONS")
-    print("="*60)
-    for sentence in test_cases:
-        processed = preprocess_text(sentence)
-        prediction = pipeline.predict([processed])[0]
-        proba = pipeline.predict_proba([processed])[0]
-        confidence = max(proba)
-        print(f"  \"{sentence}\"")
-        print(f"    → {prediction.upper()} (confidence: {confidence:.1%})")
-        print()
+# ── DEMO PREDICTIONS ─────────────────────────────────────────────────
+print("\n=== Demo Predictions ===")
 
+def predict(text):
+    p = preprocess(text)
+    cat = cat_pipe.predict([p])[0]
+    pm  = pm_pipe.predict([p])[0]
+    nums = re.findall(r'\b(\d{2,5})\b', text)
+    amt = int(nums[0]) if nums else 0
+    return {'amount': amt, 'category': cat, 'payment': pm}
 
-def main():
-    print("\n" + "="*60)
-    print("  VoiceSpend — ML Model Training Pipeline")
-    print("  TF-IDF + Multinomial Naive Bayes Classifier")
-    print("="*60 + "\n")
-
-    # 1. Load dataset
-    sentences, labels = load_dataset(DATASET_PATH)
-
-    # Show class distribution
-    from collections import Counter
-    dist = Counter(labels)
-    print("\nClass Distribution:")
-    for cat in sorted(dist.keys()):
-        bar = "█" * (dist[cat] // 10)
-        print(f"  {cat:>15}: {dist[cat]:>4}  {bar}")
-    print()
-
-    # 2. Train model
-    pipeline, accuracy = train_model(sentences, labels)
-
-    # 3. Save pickle model
-    with open(MODEL_PATH, 'wb') as f:
-        pickle.dump(pipeline, f)
-    print(f"✓ Pickle model saved to {MODEL_PATH}")
-
-    # 4. Export weights for browser
-    export_model_weights(pipeline, WEIGHTS_PATH)
-
-    # 5. Test predictions
-    test_predictions(pipeline)
-
-    print("="*60)
-    print(f"  ✅ Training complete! Accuracy: {accuracy*100:.1f}%")
-    print(f"  📦 Model: {MODEL_PATH}")
-    print(f"  🌐 Browser weights: {WEIGHTS_PATH}")
-    print("="*60 + "\n")
-
-
-if __name__ == "__main__":
-    main()
+tests = [
+    "paid 500 rupees for pizza via UPI",
+    "bought petrol for 100 using GPay",
+    "spent 200 on lunch with cash",
+    "paid 1500 for groceries via PhonePe",
+    "paid 340 for petrol by debit card",
+    "got internet bill for 930 using credit card",
+    "I paid 720 for momos via Paytm",
+    "paid 200 for coffee by card",
+    "used Navi to pay 500 for dinner",
+    "paid 800 for shoes in cash",
+]
+for t in tests:
+    r = predict(t)
+    print(f"  [{r['payment']:6}] [{r['category']:13}] ₹{r['amount']:5}  ← \"{t}\"")
