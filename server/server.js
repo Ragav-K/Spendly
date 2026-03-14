@@ -1,8 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const admin = require('firebase-admin');
-const nodemailer = require('nodemailer');
 const crypto = require('crypto');
+const https = require('https');
 require('dotenv').config();
 
 const app = express();
@@ -22,19 +22,67 @@ try {
   console.warn('WARNING: serviceAccountKey.json not found. Firebase Admin is not initialized.');
 }
 
-// Nodemailer Transporter
-// Use your Gmail and an App Password (not your real password)
-const transporter = nodemailer.createTransport({
-  service: 'gmail',
-  auth: {
-    user: process.env.EMAIL_USER || 'your-email@gmail.com',
-    pass: process.env.EMAIL_PASS || 'your-app-password'
-  }
-});
+const brevoApiKey = process.env.BREVO_API_KEY || process.env.SENDINBLUE_API_KEY;
+
+if (brevoApiKey) {
+  console.log('Brevo email client configured.');
+} else {
+  console.warn('WARNING: BREVO_API_KEY not found in .env. Email delivery will fail.');
+}
 
 // In-memory store for OTPs: { "user_uid": { otp: "123456", expiresAt: 1234567890 } }
 // In a production app, store this in Firestore or Redis.
 const otpStore = new Map();
+
+function sendEmailWithBrevo({ to, subject, html }) {
+  return new Promise((resolve, reject) => {
+    const payload = JSON.stringify({
+      sender: {
+        email: process.env.EMAIL_FROM,
+        name: process.env.EMAIL_FROM_NAME || 'Spendly'
+      },
+      to: [{ email: to }],
+      subject,
+      htmlContent: html
+    });
+
+    const req = https.request(
+      {
+        hostname: 'api.brevo.com',
+        path: '/v3/smtp/email',
+        method: 'POST',
+        headers: {
+          'accept': 'application/json',
+          'api-key': brevoApiKey,
+          'content-type': 'application/json',
+          'content-length': Buffer.byteLength(payload)
+        }
+      },
+      (resp) => {
+        let body = '';
+
+        resp.on('data', (chunk) => {
+          body += chunk;
+        });
+
+        resp.on('end', () => {
+          const parsed = body ? JSON.parse(body) : {};
+
+          if (resp.statusCode >= 200 && resp.statusCode < 300) {
+            resolve(parsed);
+            return;
+          }
+
+          reject(new Error(parsed.message || `Brevo request failed with status ${resp.statusCode}`));
+        });
+      }
+    );
+
+    req.on('error', reject);
+    req.write(payload);
+    req.end();
+  });
+}
 
 /**
  * 1. POST /send-otp
@@ -60,22 +108,25 @@ app.post('/send-otp', async (req, res) => {
       expiresAt: Date.now() + 10 * 60 * 1000
     });
 
-    // Send Email
-    const mailOptions = {
-        from: `Spendly App <${process.env.EMAIL_USER}>`,
-        to: email,
-        subject: 'Your Spendly Verification Code',
-        html: `
-          <div style="font-family: Arial, sans-serif; text-align: center; padding: 20px;">
-            <h2>Secure Verification</h2>
-            <p>Your 6-digit verification code is:</p>
-            <h1 style="font-size: 40px; letter-spacing: 5px; color: #4ecdc4;">${otp}</h1>
-            <p>This code will expire in 10 minutes. Do not share it with anyone.</p>
-          </div>
-        `
-    };
+    // Send Email via Brevo
+    if (!brevoApiKey || !process.env.EMAIL_FROM) {
+      console.error('Email skipped: Brevo not configured correctly.');
+      return res.status(500).json({ error: "Email service not configured." });
+    }
 
-    await transporter.sendMail(mailOptions);
+    await sendEmailWithBrevo({
+      to: email,
+      subject: 'Your Spendly Verification Code',
+      html: `
+        <div style="font-family: Arial, sans-serif; text-align: center; padding: 20px;">
+          <h2>Secure Verification</h2>
+          <p>Your 6-digit verification code is:</p>
+          <h1 style="font-size: 40px; letter-spacing: 5px; color: #4ecdc4;">${otp}</h1>
+          <p>This code will expire in 10 minutes. Do not share it with anyone.</p>
+        </div>
+      `
+    });
+
     console.log(`OTP sent to ${email}`);
 
     res.json({ success: true, message: "OTP Sent successfully" });
