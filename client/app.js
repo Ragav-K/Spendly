@@ -158,15 +158,19 @@ onAuthStateChanged(auth, async (user) => {
       // Trigger backend to send OTP
       try {
         const idToken = await user.getIdToken();
-        await fetch(`${BACKEND_URL}/send-otp`, {
+        const resp = await fetch(`${BACKEND_URL}/send-otp`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ idToken })
         });
+        const result = await resp.json();
+        if (!resp.ok || !result.success) {
+          throw new Error(result.error || 'Failed to send OTP');
+        }
         console.log('OTP request sent to backend');
       } catch (e) {
         console.error('Error triggering OTP:', e);
-        document.getElementById('authErrorOTP').textContent = 'Could not send OTP. Backend offline?';
+        document.getElementById('authErrorOTP').textContent = e.message || 'Could not send OTP. Backend offline?';
       }
       return;
     }
