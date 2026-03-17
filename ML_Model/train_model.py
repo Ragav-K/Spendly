@@ -1,4 +1,5 @@
 import json, pickle, re
+from pathlib import Path
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
@@ -8,7 +9,10 @@ from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
 from collections import Counter
 
-DATASET_PATH = 'voice_expense_dataset.json'
+BASE_DIR = Path(__file__).resolve().parent
+DATASET_PATH = BASE_DIR / 'voice_expense_dataset.json'
+WEIGHTS_PATH = BASE_DIR / 'ml_model_weights_v2.json'
+PICKLE_PATH = BASE_DIR / 'expense_classifier.pkl'
 CATEGORIES = ["food","transport","shopping","bills","entertainment","health","groceries","education"]
 
 with open(DATASET_PATH, 'r', encoding='utf-8') as f:
@@ -40,7 +44,7 @@ cat_pipe.fit(X_tr, y_tr)
 y_pred = cat_pipe.predict(X_te)
 print(f"Test Accuracy : {accuracy_score(y_te, y_pred):.4f}")
 cv = cross_val_score(cat_pipe, processed, categories, cv=5)
-print(f"CV  Accuracy  : {cv.mean():.4f} ±{cv.std():.4f}")
+print(f"CV  Accuracy  : {cv.mean():.4f} +/- {cv.std():.4f}")
 print(classification_report(y_te, y_pred, zero_division=0))
 
 # ── PAYMENT METHOD MODEL ──────────────────────────────────────────────
@@ -62,7 +66,7 @@ pm_pipe.fit(X_tr2, y_tr2)
 y_pred2 = pm_pipe.predict(X_te2)
 print(f"Test Accuracy : {accuracy_score(y_te2, y_pred2):.4f}")
 cv2 = cross_val_score(pm_pipe, pm_sents, pm_labs, cv=5)
-print(f"CV  Accuracy  : {cv2.mean():.4f} ±{cv2.std():.4f}")
+print(f"CV  Accuracy  : {cv2.mean():.4f} +/- {cv2.std():.4f}")
 print(classification_report(y_te2, y_pred2, zero_division=0))
 
 # ── EXPORT JSON WEIGHTS (browser-compatible) ─────────────────────────
@@ -106,17 +110,17 @@ def export_weights(cat_pipeline, pm_pipeline, out_path):
         json.dump(model_data, f)
 
     size_kb = len(json.dumps(model_data)) / 1024
-    print(f"\n✅ Weights exported → {out_path}  ({size_kb:.0f} KB)")
+    print(f"\nWeights exported to {out_path} ({size_kb:.0f} KB)")
     print(f"   Category vocab  : {len(model_data['vocabulary'])} terms | classes: {model_data['classes']}")
     print(f"   Payment vocab   : {len(model_data['pm_vocabulary'])} terms | classes: {model_data['pm_classes']}")
     return model_data
 
-weights = export_weights(cat_pipe, pm_pipe, '/home/claude/ml_model_weights_v2.json')
+weights = export_weights(cat_pipe, pm_pipe, WEIGHTS_PATH)
 
 # ── SAVE PICKLE ───────────────────────────────────────────────────────
-with open('expense_classifier.pkl', 'wb') as f:
+with open(PICKLE_PATH, 'wb') as f:
     pickle.dump({'category': cat_pipe, 'payment': pm_pipe}, f)
-print("✅ Pickle saved → expense_models_v2.pkl")
+print(f"Pickle saved to {PICKLE_PATH}")
 
 # ── DEMO PREDICTIONS ─────────────────────────────────────────────────
 print("\n=== Demo Predictions ===")
@@ -143,4 +147,4 @@ tests = [
 ]
 for t in tests:
     r = predict(t)
-    print(f"  [{r['payment']:6}] [{r['category']:13}] ₹{r['amount']:5}  ← \"{t}\"")
+    print(f"  [{r['payment']:6}] [{r['category']:13}] Rs.{r['amount']:5} <- \"{t}\"")
